@@ -1,0 +1,592 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Healthcare Website</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Cinzel+Decorative&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Sofia&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Parisienne&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Tangerine&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Potta+One&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Carter+One&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Carter+One&family=Oleo+Script&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Carter+One&family=Oleo+Script&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Cookie&display=swap" rel="stylesheet">
+    <style>
+        .my_nav_bar {
+            position: sticky;
+            top: 0;
+            z-index: 9999;
+            font-family: 'Lobster', cursive;
+            font-size: 20px;
+        }
+
+        .qwerty {
+            font-size: 30px;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        /*Main Page*/
+        #Name {
+            background: url("https://t3.ftcdn.net/jpg/02/89/60/96/360_F_289609649_SayyqhWUJoVj3roYfRty2sWYEipZ2n0L.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        #main {
+            font-size: 100px;
+            color: black;
+            text-align: center;
+            /*font-family:"Brush Script MT", cursive;*/
+            /*font-family: "Brush Script MT";*/
+            /* text-decoration-style: wavy;
+    text-decoration-line: underline;
+    text-decoration-thickness: 5px; */
+            /*font-family: 'Bangers', cursive;*/
+            /*font-family: 'Parisienne', cursive;*/
+            /*font-family: 'Great Vibes', cursive;*/
+            /*font-family: 'Tangerine', cursive;*/
+            font-family: 'Fredericka the Great', cursive;
+            font-weight: 500;
+        }
+
+        #get {
+            height: 40px;
+            width: 120px;
+            text-align: center;
+            background-color: rgb(84, 195, 223);
+            border: none;
+            border-radius: 5px;
+            color: white;
+        }
+
+        #logo {
+            border-radius: 150px;
+            height: 283px;
+            width: 283px;
+            border-width: 2px;
+            border-color: cornflowerblue;
+            border-style: solid;
+        }
+
+        /*Our Mission Page*/
+        #mission {
+            background: url("https://image.freepik.com/free-vector/medical-healthcare-background-with-text-space_1017-26841.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        #MISSION,
+        #DIET, #DISEASES, #MISSION {
+            background-image: linear-gradient(to right, rgba(255, 0, 0, 0), rgba(255, 0, 0, 1));
+            height: 5px;
+        }
+
+        #m {
+            width: 350px;
+            height: 150px;
+        }
+
+        #a,
+        #b,
+        #c,
+        #d {
+            height: 250px;
+            width: 300px;
+            background-color: white;
+            border-width: 5px;
+            border-style: double;
+            margin-left: 1px;
+            margin-right: 1px;
+            margin-top: 4px;
+        }
+
+        #mi {
+            color: blueviolet;
+            font-family: "Sofia", cursive;
+
+        }
+
+        /*Balnced Diet Page*/
+        #diet {
+            background: url("https://assets.hongkiat.com/uploads/wood-textures/simple-wood-texture.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        #bl {
+            color: rgb(151, 24, 24);
+            text-decoration-color: rgb(93, 9, 9);
+            text-decoration-style: wavy;
+            text-decoration-thickness: 2px;
+            text-decoration-line: underline;
+            font-family: 'Potta One', cursive;
+            font-size: 40px;
+
+        }
+
+        #dietimg {
+            width:300px;
+            height:250px;
+            border-radius: 20px;
+            border-style: double;
+            border-color: brown;
+            border-width: 10px;
+        }
+
+        #ans {
+            text-align: center;
+            font-family: 'Dancing Script', cursive;
+            font-size: 25px;
+            font-weight: bold;
+        }
+
+        #ques {
+            text-align: center;
+            font-size: 30px;
+            color: darkmagenta;
+            font-family: 'Bangers', cursive;
+            text-transform: uppercase;
+        }
+
+        /*Medicines & Diseases*/
+        .movie_head {
+            font-size: 20px;
+            padding: 6px 22px;
+            border-radius: 10px;
+            margin-bottom: 15px;
+            width: 100%;
+            display: inline-block;
+        }
+
+        .movie_head i {
+            float: right;
+        }
+
+        .movie_text span {
+            color: dimgrey;
+        }
+
+        .environment_li {
+            margin-top: 13px;
+        }
+        #cof
+        {
+            height:200px;
+            width:150px;
+        }
+        #moc
+        {
+            width:200px;
+            height:200px;
+        }
+        #par
+        {
+            height:200px;
+            width:300px;
+        }
+        #diseases
+        {
+            background:url("https://media.xconomy.com/wordpress/wp-content/images/2020/02/27123419/iStock-1131469143.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .bar
+        {
+            background-color:transparent;
+            color:black;
+            font-family: 'Great Vibes', cursive;
+            font-size: 30px;
+            border-width: 5px;
+            border-color: white;
+            border-radius: 5px;
+            font-family: 'Oleo Script', cursive;
+        }
+        .a
+        {
+            color:black;
+            border-width: 5px;
+            border-color: white;
+            border-radius: 5px;
+        }
+        p{
+            font-family: 'Courgette', cursive;
+            font-size: 20px;
+            color: black;
+        }
+        h5
+        {
+            font-family: 'Cookie', cursive;
+            font-size: 35px;
+        }
+        #par1
+        {
+            width:300px;
+            height:250px;
+        }
+        #par2
+        {
+            width:300px;
+            height:300px;
+        }
+        #ds
+        {
+            color: rgb(104, 16, 116);
+            text-decoration-color: rgb(47, 10, 71);
+            text-decoration-style: wavy;
+            text-decoration-thickness: 2px;
+            text-decoration-line: underline;
+            font-family: 'bangers', cursive;
+            font-size: 40px;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar-inverse my_nav_bar">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mynavbar"><span
+                    class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span></button>
+            <a class="navbar-brand qwerty" href="#">HealSoul</a>
+        </div>
+
+        <div class="collapse navbar-collapse" id="mynavbar">
+            <ul class="nav navbar-nav">
+
+                <li><a href="#MISSION">Mission Health</a></li>
+                <li><a href="#DIET">Balanced Diet</a></li>
+                <li><a href="#DISEASES">Diseases & Their Medicines</a></li>
+                <li><a href="#">Campus Life</a></li>
+                <li><a href="#">Achievements</a></li>
+                <li><a href="#">What's New!</a></li>
+                <li><a href="#i">Our Alumini</a></li>
+                <li><a href="#">Contact US</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <center>
+        <div id="NAME"></div>
+        <div></div>
+        <div id="Name">
+            <br>
+            <img id="logo" src="https://i.pinimg.com/originals/2f/1c/86/2f1c860ab0404d21cac215e524de0ceb.jpg">
+            <h1 id="main">We Care For Your</h1>
+            <h1 id="main">Health Every Moment</h1>
+            <br>
+            <br>
+            <br>
+            <br>
+        </div>
+        <br>
+
+
+        <div id="MISSION"></div>
+        <br>
+        <div id="mission">
+            <br>
+            <img id="m"
+                src="https://web.ashevillechamber.org/external/wcpages/wcwebcontent/webcontentpage.aspx?contentid=1024">
+            <div>
+                <h1 id="mi">“To inspire hope and contribute to health and well-being by providing the best care to
+                    everyone through online mode.”</h1>
+                <img id="a"
+                    src="https://fmcggurus.com/wp-content/uploads/2019/06/apple-blue-background-close-up-1353366-768x802.jpg">
+                <img id="b"
+                    src="https://static-news.moneycontrol.com/static-mcnews/2018/10/critical-illness-health-insurance-1280x-720-770x433.jpg">
+            </div>
+            <div><img id="c"
+                    src="https://www.icicilombard.com/docs/default-source/assets/freshlook/images/ui-health-insurance-policy.png">
+                <img id="d" src="https://eatforum.org/content/uploads/2019/02/EAT-Lancet_PHD_Plate_RGB-02-940x940.png">
+            </div>
+        </div>
+        <br>
+
+        <div id="DIET"></div>
+        <br>
+        <div id="diet">
+            <br>
+            <h1 id="bl">BALANCED DIET</h1>
+            <span>
+                <img id="dietimg" src="https://cdn.cdnparenting.com/articles/2018/12/590825882-H.jpg">
+                <img id="dietimg" src="https://www.chp.gov.hk/files/jpg/adult_eng.jpg">
+                <h3 id="ques">WHAT IS IT?</h3>
+                <h4 id="ans">A balanced diet is a diet that contains differing kinds of foods in certain quantities and
+                    proportions so that the requirement for calories, proteins, minerals, vitamins and alternative
+                    nutrients is adequate and a small provision is reserved for additional nutrients to endure the short
+                    length of leanness.</h4>
+                <br>
+                <h3 id="ques">WHAT ARE THE COMPONENTS?</h3>
+                <h4 id="ans">Components of a balanced diet -
+                    <ol>
+                        <br>
+                        •Carbohydrates. A vital source of energy, carbohydrates comprises about 60% of an individual's
+                        diet.
+                        <br>
+                        •Protein. Protein is needed to assist your body to repair cells and make new ones.
+                        <br>
+                        •Fats
+                        <br>
+                        •Vitamins and Minerals.
+                        <br>
+                        •Water
+                    </ol>
+                </h4>
+                <br>
+                <h3 id="ques">WHY IS IT IMPORTANT?</h3>
+                <h4 id="ans">A balanced diet supplies the nutrients your body needs to work effectively. Without
+                    balanced nutrition, your body is more prone to disease, infection, fatigue, and low performance.
+                    Children who don't get enough healthy foods may face growth and developmental problems, poor
+                    academic performance, and frequent infections.</h4>
+                <h3 id="ques">What are the effects?</h3>
+                <h4 id="ans">When you eat a well-rounded diet including a variety of fruits and vegetables, lean
+                    proteins and whole grains that are low in trans and saturated fat, you are reducing the risk of
+                    getting sick and developing chronic diseases such as cardiovascular and diabetes.</h4>
+            </span>
+        </div>
+        <br>
+
+
+
+
+        <div id="DISEASES"></div>
+        <br>
+        <div id="diseases">
+            <h1 id="ds">DISEASES AND THEIR MEDICINES</h1>
+
+             <!-- 1st-->
+            <div class="bar movie_head" data-toggle="collapse" data-target="#cough">
+                 Cough With Sputum<i class="fa fa-sort-desc a"></i>
+            </div>
+            <div id="cough" class="collapse">
+                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                    <img class="img-responsive img-thumbnail" id="cof" src="https://www.cofsils.com/dist/img/cough-syrup/cough-syrup-bottle.png">
+                </div>
+                <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 movie-text">
+                    <h5 class="text-success text-left text-capitalize">Cofsils Syrup</h5>
+                    <p>                    
+                    Cofsils Natural Cough Syrup is a cough formula that combines medicinal herbs beneficial to suppressing cough reflexes and relieving chest congestion. It also performs soothing, cooling actions to reduce throat pain and discomfort.
+                    <br>
+                    Cofsils Medicated Cough Syrup is a combination of an antiallergic, expectorant, and mucolytic agents that together serve as an effective combination for multi-symptom cough relief (i.e. relief from cough, cold, sore throat, and symptoms of congestion). It especially works to relieve cough that is allergic in origin.
+                    </p> 
+                </div>
+            </div>
+            <br>
+
+    <!-- 2nd-->
+    <div class="bar movie_head" data-toggle="collapse" data-target="#drycough">
+            Dry Cough<i class="fa fa-sort-desc a"></i>
+    </div>
+    <div id="drycough" class="collapse">
+    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+               <img class="img-responsive img-thumbnail" id="cof" src="https://5.imimg.com/data5/BM/QL/RX/SELLER-23618296/benadryl-syrup-500x500.jpg">
+           </div>
+           <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 movie-text">
+               <h5 class="text-success text-left text-capitalize">Benadryl Syrup</h5>
+               <p>                    
+                Benadryl Dry Cough & Nasal Congestion is used to relieve the symptoms of cold and cough such as runny nose, nasal congestion and dry cough. Dextromethorphan is a cough suppressant that acts on the cough centre in the brain to suppress a dry cough.
+               <br>
+               Benadryl Syrup helps to loosen thick mucus and reduces its stickiness, making it easier to cough out. This makes it easier for air to move in and out. It will also relieve allergy symptoms like watery eyes, sneezing, runny nose or throat irritation and help you carry out your daily activities more easily.
+               <br>
+               
+               </p> 
+           </div>
+    </div>
+
+   <!-- 3rd -->
+   <br>
+   <div class="bar movie_head" data-toggle="collapse" data-target="#cold">
+    Cold<i class="fa fa-sort-desc a"></i>
+</div>
+<div id="cold" class="collapse">
+   <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+       <img class="img-responsive img-thumbnail" id="moc" src="https://res.cloudinary.com/du8msdgbj/image/upload/l_watermark_346,w_690,h_700/a_ignore,w_690,h_700,c_pad,q_auto,f_auto/v1537728799/xdqmtonvhlqoxgbzqiub.jpg">
+   </div>
+   <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 movie-text">
+       <h5 class="text-success text-left text-capitalize">MontekLc Tablet</h5>
+       <p>                    
+        Montek LC Tablet is a combination medicine used in the treatment of allergic symptoms such as runny nose, stuffy nose, sneezing, itching, swelling, watery eyes and congestion or stuffiness. It also reduces inflammation in the airways and make breathing easier.
+       <br>
+       It rarely has any serious side effects and you may only need to take it on days you have symptoms.
+       <br>
+       
+       </p> 
+   </div>
+</div>
+
+<!-- 4th -->
+<br>
+   <div class="bar movie_head" data-toggle="collapse" data-target="#fever">
+    Fever<i class="fa fa-sort-desc a"></i>
+</div>
+<div id="fever" class="collapse">
+   <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+       <img class="img-responsive img-thumbnail" id="par" src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/gettyimages-157402355-1549537663.jpg?crop=1.00xw:0.806xh;0,0.0583xh&resize=480:*">
+   </div>
+   <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 movie-text">
+       <h5 class="text-success text-left text-capitalize">Paracetamol</h5>
+       <p>                    
+        Paracetamol, also known as acetaminophen, is a medication used to treat pain and fever. It is typically used for mild to moderate pain relief. Evidence is mixed for its use to relieve fever in children. It is often sold in combination with other medications, such as in many cold medications.
+       <br>
+       Paracetamol is a common painkiller used to treat aches and pain. It can also be used to reduce a high temperature. It's available combined with other painkillers and anti-sickness medicines. It's also an ingredient in a wide range of cold and flu remedies.
+       <br>
+       Paracetamol is known to cause liver failure in overdose, but it also causes liver failure in people taking standard doses for pain relief. The risk is only about one in a million, but it is a risk. All these different risks stack up.
+       </p> 
+   </div>
+</div>
+
+<!-- 5th -->
+<br>
+   <div class="bar movie_head" data-toggle="collapse" data-target="#stomach">
+    Stomach Ache<i class="fa fa-sort-desc a"></i>
+</div>
+<div id="stomach" class="collapse">
+   <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+       <img class="img-responsive img-thumbnail" id="par" src="https://5.imimg.com/data5/TD/YG/MY-12931455/meftal-spas-tab-250x250.jpg">
+   </div>
+   <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 movie-text">
+       <h5 class="text-success text-left text-capitalize">Meftal Spas Tablet</h5>
+       <p>                    
+        Meftal Spas tablets contain a combination of two medicines - Dicyclomine and Mefenamic acid. It is used to relieve menstrual pain and cramps and is also helpful in treating stomach cramps.
+       <br>
+       Ibuprofen + Paracetamol is a combination of two medicines: Ibuprofen and Paracetamol. It works by blocking the release of certain chemical messengers that cause fever, pain and inflammation (redness and swelling). You have been prescribed this combination medicine to relieve pain, inflammation, and fever.
+       <br>
+       Paracetamol is known to cause liver failure in overdose, but it also causes liver failure in people taking standard doses for pain relief. The risk is only about one in a million, but it is a risk. All these different risks stack up.
+       </p> 
+   </div>
+</div>
+
+<!-- 6th -->
+<br>
+<div class="bar movie_head" data-toggle="collapse" data-target="#mouth">
+ Mouth Ucler<i class="fa fa-sort-desc a"></i>
+</div>
+<div id="mouth" class="collapse">
+<div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+    <img class="img-responsive img-thumbnail" id="par" src="https://res.cloudinary.com/du8msdgbj/image/upload/l_watermark_346,w_690,h_700/a_ignore,w_690,h_700,c_pad,q_auto,f_auto/v1600086256/cropped/lq3gojajxkhclwz4fu0j.jpg">
+</div>
+<div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 movie-text">
+    <h5 class="text-success text-left text-capitalize">Vitamin-B Complex Capsules</h5>
+    <p>                    
+     This product is a combination of B vitamins used to treat or prevent vitamin deficiency due to poor diet, certain illnesses, alcoholism, or during pregnancy. Vitamins are important building blocks of the body and help keep you in good health.
+    <br>
+    B vitamin complex supplements are available for purchase online. Because of its energy-boosting abilities, the best time of day to take a B vitamin is after waking up. Also, recent research indicates that vitamin B-6 may potentially interfere with sleep and induce vivid dreams.
+    </p> 
+</div>
+</div>
+
+<!-- 7th -->
+<br>
+<div class="bar movie_head" data-toggle="collapse" data-target="#nasal">
+ Nasal Blockage<i class="fa fa-sort-desc a"></i>
+</div>
+<div id="nasal" class="collapse">
+<div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+    <img class="img-responsive img-thumbnail" id="par" src="https://3.imimg.com/data3/ND/VV/MY-698211/sodium-chloride-nasal-drops-500x500.jpg">
+</div>
+<div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 movie-text">
+    <h5 class="text-success text-left text-capitalize">Saline Nasal Drop</h5>
+    <p>                    
+     Nonprescription saline nasal sprays and nose drops are used to keep nasal tissues moist, relieve nasal irritation, and help thick or dried mucus to drain. Saline nose drops can be purchased without a prescription or can be made easily at home.
+    <br>
+    Saline solution is the only safe nasal spray for babies, infants, and toddlers. To use saline solution, lay the baby down on their back and, if possible, slightly tilt their head back (don't force it, though).
+    </p> 
+</div>
+</div>
+
+<!-- 8th -->
+<br>
+   <div class="bar movie_head" data-toggle="collapse" data-target="#ear">
+    Ear Wax<i class="fa fa-sort-desc a"></i>
+</div>
+<div id="ear" class="collapse">
+   <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+       <img class="img-responsive img-thumbnail" id="par1" src="https://res.cloudinary.com/du8msdgbj/image/upload/l_watermark_346,w_690,h_700/a_ignore,w_690,h_700,c_pad,q_auto,f_auto/v1528455276/zunk15xe583u9fsuuys2.jpg">
+   </div>
+   <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 movie-text">
+       <h5 class="text-success text-left text-capitalize">Soliwax</h5>
+       <p>                    
+        Soliwax ear drops will relieve ear ache promptly, and begin to emulsify and disperse the excess/impacted cerumen, while exerting insecticidal, antibacterial and anti-fungal actions simultaneously. Improves aural hygiene and facilitates hearing.
+       <br>
+       Soliwax Ear Drop is a combination of four medicines: Benzocaine, Chlorbutol, Paradichlorobenzene and Turpentine Oil. Benzocaine is a local anesthetic. It works by blocking pain signals from the nerves to brain which decreases sensation of pain. Chlorbutol is a preservative.
+       </p> 
+   </div>
+</div>
+
+<!-- 9th -->
+<br>
+   <div class="bar movie_head" data-toggle="collapse" data-target="#digene">
+    Stomach Indigestion<i class="fa fa-sort-desc a"></i>
+</div>
+<div id="digene" class="collapse">
+   <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+       <img class="img-responsive img-thumbnail" id="par2" src="https://www.digeneindia.com/assets/images/products/gel_mint_img.png">
+   </div>
+   <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 movie-text">
+       <h5 class="text-success text-left text-capitalize">Digenex</h5>
+       <p>                    
+        Digene assorted tablet is an antacid which is used to treat constipation, acidity and gas problems. It is usually prescribed to patients suffering from conditions such as esophagitis, gastritis and stomach upset. It acts as a weak base and raises the pH of the gastric contents to above 3.5.
+       <br>
+       A single dose may not be sufficient. However, with only a few doses of Pantoprazole you may get relief with the symptoms. Pantoprazole is usually needed only for a short term or upto 2 weeks for heartburn, indigestion, acid reflux.
+       <br>
+       These tablets are usually safe and don't cause any side effects when taken as per the doctor's recommendation. However, if your symptoms do not improve or if your condition worsens, then consult your doctor immediately.
+       </p> 
+   </div>
+</div>
+
+
+<!-- 10th -->
+<!-- Example -->
+<br>
+<div class="bar movie_head" data-toggle="collapse" data-target="#1">
+ <i class="a"></i>
+</div>
+<div id="1" class="collapse">
+<div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+    <img class="img-responsive img-thumbnail" id="par" src="">
+</div>
+<div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 movie-text">
+    <h5 class="text-success text-left text-capitalize"></h5>
+    </p> 
+</div>
+</div>
+
+</div>
+<br>
+
+    </center>
+</body>
+
+</html>
