@@ -1,3 +1,7 @@
+body
+{
+    background-color: white !important;
+}
 .my_nav_bar {
     position: sticky;
     top: 0;
@@ -16,9 +20,9 @@ html {
 
 /*Main Page*/
 #Name {
-    background: url("https://t3.ftcdn.net/jpg/02/89/60/96/360_F_289609649_SayyqhWUJoVj3roYfRty2sWYEipZ2n0L.jpg");
+   /* background: url("https://t3.ftcdn.net/jpg/02/89/60/96/360_F_289609649_SayyqhWUJoVj3roYfRty2sWYEipZ2n0L.jpg");
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: cover; */
 }
 
 #main {
@@ -59,9 +63,9 @@ text-decoration-thickness: 5px; */
 
 /*Our Mission Page*/
 #mission {
-    background: url("https://image.freepik.com/free-vector/medical-healthcare-background-with-text-space_1017-26841.jpg");
+    /* background: url("https://image.freepik.com/free-vector/medical-healthcare-background-with-text-space_1017-26841.jpg");
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: cover; */
 }
 
 #MISSION,
@@ -100,9 +104,9 @@ text-decoration-thickness: 5px; */
 
 /*Balnced Diet Page*/
 #diet {
-    background: url("https://assets.hongkiat.com/uploads/wood-textures/simple-wood-texture.jpg");
+   /* background: url("https://assets.hongkiat.com/uploads/wood-textures/simple-wood-texture.jpg");
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: cover; */
 }
 
 #bl {
@@ -174,10 +178,10 @@ text-decoration-thickness: 5px; */
 }
 #diseases
 {
-    background:url("https://media.xconomy.com/wordpress/wp-content/images/2020/02/27123419/iStock-1131469143.jpg");
+    /* background:url("https://media.xconomy.com/wordpress/wp-content/images/2020/02/27123419/iStock-1131469143.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    margin-top: 0px !important;
+    margin-top: 0px !important; */
 }
 .bar
 {
