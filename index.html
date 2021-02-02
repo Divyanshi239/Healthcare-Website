@@ -10,7 +10,7 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Cinzel+Decorative&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <!-- <link rel="stylesheet" type="text/css" href="style.css"> -->
+    <link rel="stylesheet" type="text/css" href="style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Sofia&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -41,222 +41,15 @@
     <link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Cookie&display=swap" rel="stylesheet">
-     <style>
-         .my_nav_bar {
-    position: sticky;
-    top: 0;
-    z-index: 9999;
-    font-family: 'Lobster', cursive;
-    font-size: 20px;
-}
-
-.qwerty {
-    font-size: 30px;
-}
-
-html {
-    scroll-behavior: smooth;
-}
-
-/*Main Page*/
-
-#main {
-    font-size: 100px;
-    color: black;
-    text-align: center;
-    /*font-family:"Brush Script MT", cursive;*/
-    /*font-family: "Brush Script MT";*/
-    /* text-decoration-style: wavy;
-text-decoration-line: underline;
-text-decoration-thickness: 5px; */
-    /*font-family: 'Bangers', cursive;*/
-    /*font-family: 'Parisienne', cursive;*/
-    /*font-family: 'Great Vibes', cursive;*/
-    /*font-family: 'Tangerine', cursive;*/
-    font-family: 'Fredericka the Great', cursive;
-    font-weight: 500;
-}
-
-#get {
-    height: 40px;
-    width: 120px;
-    text-align: center;
-    background-color: rgb(84, 195, 223);
-    border: none;
-    border-radius: 5px;
-    color: white;
-}
-
-#logo {
-    border-radius: 150px;
-    height: 300px;
-    width: 450px;
-    /* border-width: 2px;
-    border-color: cornflowerblue;
-    border-style: solid; */
-}
-
-/*Our Mission Page*/
-
-#m {
-    width: 350px;
-    height: 150px;
-}
-
-#a,
-#b,
-#c,
-#d {
-    height: 250px;
-    width: 300px;
-    background-color: white;
-    border-width: 5px;
-    border-style: double;
-    margin-left: 1px;
-    margin-right: 1px;
-    margin-top: 4px;
-}
-
-#mi {
-    color: blueviolet;
-    font-family: "Sofia", cursive;
-
-}
-
-/*Balnced Diet Page*/
-#bl {
-    color: rgb(151, 24, 24);
-    text-decoration-color: rgb(93, 9, 9);
-    text-decoration-style: wavy;
-    text-decoration-thickness: 2px;
-    text-decoration-line: underline;
-    font-family: 'Potta One', cursive;
-    font-size: 40px;
-
-}
-
-#dietimg {
-    width:300px;
-    height:250px;
-    border-radius: 20px;
-    border-style: double;
-    border-color: brown;
-    border-width: 10px;
-}
-
-#ans {
-    text-align: center;
-    font-size: 25px;
-}
-
-#ques {
-    text-align: center;
-    font-size: 30px;
-    color: rgb(46, 108, 209);
-    text-transform: uppercase;
-    font-weight: bold;
-}
-
-/*Medicines & Diseases*/
-.movie_head {
-    font-size: 20px;
-    padding: 6px 22px;
-    border-radius: 10px;
-    /*margin-bottom: 15px;*/
-    width: 100%;
-    display: inline-block;
-}
-
-.movie_head i {
-    float: right;
-}
-
-.movie_text span {
-    color: dimgrey;
-}
-#cof
-{
-    height:200px;
-    width:150px;
-}
-#moc
-{
-    width:200px;
-    height:200px;
-}
-#par
-{
-    height:200px;
-    width:300px;
-}
-#diseases
-{
-    margin-top: 0px !important;
-}
-.bar
-{
-    background-color:transparent;
-    color:black;
-    font-family: 'Great Vibes', cursive;
-    font-size: 30px;
-    border-width: 5px;
-    border-color: white;
-    border-radius: 5px;
-    font-family: 'Oleo Script', cursive;
-}
-.a
-{
-    color:black;
-    border-width: 5px;
-    border-color: white;
-    border-radius: 5px;
-}
-p{
-    font-family: 'Courgette', cursive;
-    font-size: 20px;
-    color: black;
-}
-h5
-{
-    font-family: 'Cookie', cursive;
-    font-size: 35px;
-}
-#par1
-{
-    width:300px;
-    height:250px;
-}
-#par2
-{
-    width:300px;
-    height:300px;
-}
-#ds
-{
-    color: rgb(104, 16, 116);
-    text-decoration-color: rgb(47, 10, 71);
-    text-decoration-style: wavy;
-    text-decoration-thickness: 2px;
-    text-decoration-line: underline;
-    font-family: 'bangers', cursive;
-    font-size: 40px;
-}
-
-
-/* #abimg
-{
-    height: 75px;
-    width: 200px;
-}*/
-     </style>
+    <link src="main.js">
 </head>
 
-<body>
+<body id="body">
     <nav class="navbar-inverse my_nav_bar">
         <div class="navbar-header">
             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mynavbar"><span
                     class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span></button>
-            <a class="navbar-brand qwerty" href="#">HealSoul</a>
+            <a class="navbar-brand qwerty" href="#">Able-Bodied</a>
         </div>
 
         <div class="collapse navbar-collapse" id="mynavbar">
@@ -265,11 +58,11 @@ h5
                 <!-- <li><a href="#ABOUT">About</a></li> -->
                 <li><a href="#MISSION">Mission Health</a></li>
                 <li><a href="#DIET">Balanced Diet</a></li>
+                <li><a href="#HABITS">Habits To Follow</a></li>
                 <li><a href="#">New Topic</a></li>
                 <li><a href="#">New Topic</a></li>
                 <li><a href="#">New Topic</a></li>
-                <li><a href="#">New Topic</a></li>
-                <li><a href="#">New Topic</a></li>
+                <li><a href="#ABOUT">About</a></li>
                 <li><a href="#">Contact US</a></li>
             </ul>
         </div>
@@ -280,7 +73,7 @@ h5
         <div></div>
         <div id="Name">
             <br>
-            <img id="logo" src="Logo.png">
+            <img id="logo" src="Logo 2.jfif">
             <h1 id="main">We Care For Your</h1>
             <h1 id="main">Health Every Moment</h1>
             <br>
@@ -288,13 +81,6 @@ h5
             <br>
             <br>
         </div>
-
-        <!--<div id="ABOUT"></div> -->
-        <!-- <br> -->
-        <!--<div id="about">
-            <br>
-            <img id="abimg" src="https://images.squarespace-cdn.com/content/v1/5c2b580750a54f8c762e67c2/1546354610860-OHD73Q1S1KO77UKOO4XS/ke17ZwdGBToddI8pDm48kHYF3GDzDxkV_oH_p6mN7YEUqsxRUqqbr1mOJYKfIPR7LoDQ9mXPOjoJoqy81S2I8N_N4V1vUb5AoIIIbLZhVYxCRW4BPu10St3TBAUQYVKc0UnXVGnb92C6teDNP-_XGikCvT56GTLv8qzm7s2yNsNqIyCoACM04H5MoySLP--_/about.png">
-        </div> -->
 
         <div id="MISSION"></div>
         <br>
@@ -319,43 +105,114 @@ h5
         <br>
         <div id="diet">
             <h1 id="ds">BALANCED DIET</h1>
-            <span>
+                <span>
                 <img id="dietimg" src="https://cdn.cdnparenting.com/articles/2018/12/590825882-H.jpg">
                 <img id="dietimg" src="https://www.chp.gov.hk/files/jpg/adult_eng.jpg">
                 <h3 id="ques">WHAT IS IT?</h3>
-                <h4 id="ans">A balanced diet is a diet that contains differing kinds of foods in certain quantities and
-                    proportions so that the requirement for calories, proteins, minerals, vitamins and alternative
-                    nutrients is adequate and a small provision is reserved for additional nutrients to endure the short
-                    length of leanness.</h4>
+                <h4 id="ans">A balanced diet contains all the food items necessary for keeping body healthy and fit in right proportion. This diet completes the requirement of calories, proteins, minerals, vitamins and different nutrients.</h4>
                 <br>
                 <h3 id="ques">WHAT ARE THE COMPONENTS?</h3>
                 <h4 id="ans">Components of a balanced diet -
-                    <ol>
                         <br>
-                        •Carbohydrates. A vital source of energy, carbohydrates comprises about 60% of an individual's
-                        diet.
-                        <br>
-                        •Protein. Protein is needed to assist your body to repair cells and make new ones.
-                        <br>
+                        <!-- Carbohydrates -->
+                        <div class="bg-primary movie_head bar" data-toggle="collapse" data-target="#carbohydrates"></span> Carbohydrates<i class="fa fa-sort-desc"></i>
+                        </div>
+                
+                        <div id="carbohydrates" class="collapse">
+                
+                            <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 movie-text">
+                               <!-- <h5 class="text-success text-left text-capitalize">Excellent film to culnimate mcu ride!
+                                </h5> -->
+                                <p>These are made up of carbon, hydrogen and oxygen. In our food these are present in the form of sugar and starch. These are the source of energy. For eg- Fruits like mango and banana are rich in sugar. Cereals like Wheat and rice are rich in sugar.</p>
+                            </div>
+                        </div>
+                        <br> <br>
+                        <!-- Proteins -->
+                        <div class="bg-primary movie_head bar" data-toggle="collapse" data-target="#proteins"></span>Proteins<i class="fa fa-sort-desc"></i>
+                        </div>
+                
+                        <div id="proteins" class="collapse">
+                
+                            <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 movie-text">
+                                <p>Proteins are made up of carbon,hydrogen,oxygen,nitrogen  and a small quantity of both sulphur and phosphorus. Proteins help in building up the developing tissues of a growing child. They also take care of the ‘wear and tear’ of the body tissues at all the ages.</p>
+                            </div>
+                        </div>
+                        <br> <br>
+
+                        
+
                         •Fats
                         <br>
-                        •Vitamins and Minerals.
+                        Fats are also made up of carbon, hydrogen and oxygen. However, they contain much less oxygen in comparison to the carbohydrates. They provide more than double the amount of energy provided by the same weight of carbohydrates. fats are essential for their absorption in our body. Fats are obtained fromVegetable oils, like mustard oil, coconut oil and groundnut oil, are obtained from plants. Milk and milk products, such as butter, ghee, along with meat, fish and eggs, are sources of fats that are obtained from animals.
+                        <br> <br>
+                        •Vitamins
                         <br>
+                        Vitamins are essential for maintaining good health and proper growth of the body. They are needed in small quantities only. They do not provide energy. However, they play an important part in most of the biochemical changes within our body. Plants are the main source of vitamins.
+                        <br> <br>
+                        •Minerals
+                        <br>
+                        The important minerals, needed by our body, are sodium, potassium, magnesium, calcium, iron, manganese, copper, chloride, iodine, phosphorous and sulphur. They are needed in very small quantities for proper growth and maintenance of the body.
+                        <br> <br>
                         •Water
-                    </ol>
+                        <br>
+                        Water is essential for all vital processes of the body. It forms 70 per cent of our body weight. It is essential for all reactions taking place in the cells of our body.  It helps in the removal of waste products, in the form or urine, from our body. Water helps in maintaining a uniform body temperature by distributing heat. In summer, our body produces sweat which, on evaporation from the skin, helps to keep the body cool.
+                        <br>
                 </h4>
                 <br>
                 <h3 id="ques">WHY IS IT IMPORTANT?</h3>
-                <h4 id="ans">A balanced diet supplies the nutrients your body needs to work effectively. Without
-                    balanced nutrition, your body is more prone to disease, infection, fatigue, and low performance.
-                    Children who don't get enough healthy foods may face growth and developmental problems, poor
-                    academic performance, and frequent infections.</h4>
-                <h3 id="ques">What are the effects?</h3>
-                <h4 id="ans">When you eat a well-rounded diet including a variety of fruits and vegetables, lean
-                    proteins and whole grains that are low in trans and saturated fat, you are reducing the risk of
-                    getting sick and developing chronic diseases such as cardiovascular and diabetes.</h4>
+                <h4 id="ans">Water is essential for all vital processes of the body. It forms 70 per cent of our body weight. It is essential for all reactions taking place in the cells of our body.  It helps in the removal of waste products, in the form or urine, from our body. Water helps in maintaining a uniform body temperature by distributing heat. In summer, our body produces sweat which, on evaporation from the skin, helps to keep the body cool.</h4>
+                <h3 id="ques">What ARE THE EFFECTS?</h3>
+                <h4 id="ans">When we eat a balanced diet including variety of all nutrients, we reduce the risk of getting sick. It boosts our immunity as well to fight from certain communicable and non-communicable diseases.</h4>
             </span>
         </div>
+
+        <div id="ABOUT"></div>
+        <br>
+        <div id="about">
+            <h1 id="ds">ABOUT</h1>
+            <p id="ab"><h3>This is our website named “Able-Bodied”. It is all about healthcare.
+                <br>
+                 We made this website to serve the community by making people cognizant of their physical and mental wellness and to encourage people for physical workout to take care of their and their family’s health.
+                 <br>
+                 <br>
+                  Healthy people of a country will accumulate growth of the country as healthier people are more economically productive. Better health also leads to an increase in savings rates— because healthier people expect to live longer and are naturally more concerned with their future financial needs.
+                  <br> 
+                  ~ And that is what we want...</h3></p>
+        </div>
+
+        <div id="YOGA"></div>
+        <div id="yoga">
+
+            <div class="page_header col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <h2 class="text-capitalize">List of books</h2>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 book" data-toggle="modal" data-target="#first_encyclopedia">
+                <img src="https://wallpapercave.com/wp/wp2550669.jpg" class="img-responsive img_modal">
+                <hr>
+                <p class="text-primary">
+                    First Space Encyclopedia
+                </p>
+            </div>
+
+        <div class="modal fade" id="first_encyclopedia">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">
+                            &times;
+                        </button>
+                        <h4 class="modal-title"> First Space Encyclopedia</h4>
+                    </div>
+                    <div class="modal-body">
+                        <img src="https://wallpapercave.com/wp/wp2550669.jpg" class="img-responsive img_modal">
+                        <p class="p_modal">Zoom off into the galaxy and investigate all the planets, from Earth to Mars with First Space Encyclopaedia. Packed full of stunning photography, quizzes and amazing facts, children will become space experts in no time. Covering everything from observatories and rockets, to the solar system and the death of stars, children will discover all about space and space travel.<br> <a href="https://www.amazon.in/First-Space-Encyclopaedia-DK/dp/0241293421/ref=sr_1_6?crid=176WU3JFDK2JP&keywords=books+on+space+for+kids&qid=1575444723&sprefix=books+on%2Caps%2C285&sr=8-6"><b>BEST BUY LINK</b></a> </p>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
 
     </center>
 </body>
