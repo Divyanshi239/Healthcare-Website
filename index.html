@@ -10,7 +10,7 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Cinzel+Decorative&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <!-- <link rel="stylesheet" type="text/css" href="style.css"> -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Sofia&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -42,6 +42,235 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Cookie&display=swap" rel="stylesheet">
     <link src="main.js">
+    <style>
+#name
+{
+    background-image: "Background.JPG";
+}
+.my_nav_bar {
+    position: sticky;
+    top: 0;
+    z-index: 9999;
+    font-family: 'Lobster', cursive;
+    font-size: 20px;
+}
+
+.qwerty {
+    font-size: 30px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/*Main Page*/
+
+#main {
+    font-size: 100px;
+    color: black;
+    text-align: center;
+    /*font-family:"Brush Script MT", cursive;*/
+    /*font-family: "Brush Script MT";*/
+    /* text-decoration-style: wavy;
+text-decoration-line: underline;
+text-decoration-thickness: 5px; */
+    /*font-family: 'Bangers', cursive;*/
+    /*font-family: 'Parisienne', cursive;*/
+    /*font-family: 'Great Vibes', cursive;*/
+    /*font-family: 'Tangerine', cursive;*/
+    font-family: 'Fredericka the Great', cursive;
+    font-weight: 500;
+}
+
+#get {
+    height: 40px;
+    width: 120px;
+    text-align: center;
+    background-color: rgb(84, 195, 223);
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
+
+#logo {
+    border-radius: 150px;
+    /* height: 300px;
+    width: 450px; */
+    height: 300px;
+    width: 300px;
+    /* border-width: 2px;
+    border-color: cornflowerblue;
+    border-style: solid; */
+}
+#MISSION,
+#DIET, 
+#DISEASES,
+#MISSION,
+#ABOUT,
+#EXERCISES,
+#HABITS
+ {
+    background-image: linear-gradient(to right, rgba(38, 0, 255, 0), rgb(0, 81, 255));
+    height: 5px;
+    margin: 0 !important;
+}
+
+/*Our Mission Page*/
+
+#m {
+    width: 350px;
+    height: 150px;
+}
+
+#a,
+#b,
+#c,
+#d {
+    height: 250px;
+    width: 300px;
+    background-color: white;
+    border-width: 5px;
+    border-style: double;
+    margin-left: 1px;
+    margin-right: 1px;
+    margin-top: 4px;
+}
+
+#mi {
+    color: blueviolet;
+    font-family: "Sofia", cursive;
+
+}
+
+/*Balnced Diet Page*/
+#bl {
+    color: rgb(151, 24, 24);
+    text-decoration-color: rgb(93, 9, 9);
+    text-decoration-style: wavy;
+    text-decoration-thickness: 2px;
+    text-decoration-line: underline;
+    font-family: 'Potta One', cursive;
+    font-size: 40px;
+
+}
+
+#dietimg {
+    width:300px;
+    height:250px;
+    border-radius: 20px;
+    border-style: double;
+    border-color: brown;
+    border-width: 10px;
+    margin: 2px;
+}
+
+#ans {
+    text-align: center;
+    font-size: 25px;
+}
+
+#ques {
+    text-align: center;
+    font-size: 30px;
+    color: rgb(46, 108, 209);
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+/*Medicines & Diseases*/
+.movie_head {
+    font-size: 20px;
+    padding: 6px 22px;
+    border-radius: 10px;
+    /*margin-bottom: 15px;*/
+    width: 100%;
+    display: inline-block;
+}
+
+.movie_head i {
+    float: right;
+}
+
+.movie_text span {
+    color: dimgrey;
+}
+#diseases
+{
+    margin-top: 0px !important;
+}
+.bar
+{
+    background-color:transparent;
+    color:black;
+    font-size: 30px;
+    border-width: 2px;
+    border-color: rgb(255, 255, 255);
+    border-radius: 50px;
+    border-style: solid;
+}
+p{
+    font-size: 20px;
+    color: black;
+}
+h5
+{
+    font-size: 35px;
+} 
+#ds
+{
+    color: rgb(104, 16, 116);
+    text-decoration-color: rgb(47, 10, 71);
+    text-decoration-style: wavy;
+    text-decoration-thickness: 2px;
+    text-decoration-line: underline;
+    font-family: 'bangers', cursive;
+    font-size: 40px;
+}
+
+.movie_text
+{
+    text-align: center;
+}
+
+/*About Screen*/
+
+#ab
+{
+    text-align: left;
+}
+
+/*Yoga Screen*/
+.book {
+    cursor: pointer;
+}
+
+.book hr {
+    margin-bottom: 10px;
+}
+
+.modal-content {
+    margin-top: 100px;
+}
+
+.img_modal {
+    display: inline-block;
+}
+
+.p_modal {
+    margin-top: 10px;
+}
+
+.modal-body {
+    text-align: center;
+}
+
+/* Habits Screen */
+.hab
+{
+    height: 200px;
+    width: 300px;
+}
+    </style>
 </head>
 
 <body id="body">
@@ -58,8 +287,8 @@
                 <!-- <li><a href="#ABOUT">About</a></li> -->
                 <li><a href="#MISSION">Mission Health</a></li>
                 <li><a href="#DIET">Balanced Diet</a></li>
+                <li><a href="#EXERCISES">Exercises</a></li>
                 <li><a href="#HABITS">Habits To Follow</a></li>
-                <li><a href="#">New Topic</a></li>
                 <li><a href="#">New Topic</a></li>
                 <li><a href="#">New Topic</a></li>
                 <li><a href="#ABOUT">About</a></li>
@@ -71,14 +300,11 @@
     <center>
         <div id="NAME"></div>
         <div></div>
-        <div id="Name">
+        <div id="name">
             <br>
             <img id="logo" src="Logo 2.jfif">
             <h1 id="main">We Care For Your</h1>
             <h1 id="main">Health Every Moment</h1>
-            <br>
-            <br>
-            <br>
             <br>
         </div>
 
@@ -116,11 +342,11 @@
                         <br>
                         <!-- Carbohydrates -->
                         <div class="bg-primary movie_head bar" data-toggle="collapse" data-target="#carbohydrates"></span> Carbohydrates<i class="fa fa-sort-desc"></i>
-                        </div>
+                       
                 
                         <div id="carbohydrates" class="collapse">
                 
-                            <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 movie-text">
+                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 movie-text">
                                <!-- <h5 class="text-success text-left text-capitalize">Excellent film to culnimate mcu ride!
                                 </h5> -->
                                 <p>These are made up of carbon, hydrogen and oxygen. In our food these are present in the form of sugar and starch. These are the source of energy. For eg- Fruits like mango and banana are rich in sugar. Cereals like Wheat and rice are rich in sugar.</p>
@@ -133,30 +359,54 @@
                 
                         <div id="proteins" class="collapse">
                 
-                            <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 movie-text">
+                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 movie-text">
                                 <p>Proteins are made up of carbon,hydrogen,oxygen,nitrogen  and a small quantity of both sulphur and phosphorus. Proteins help in building up the developing tissues of a growing child. They also take care of the ‘wear and tear’ of the body tissues at all the ages.</p>
                             </div>
                         </div>
                         <br> <br>
-
-                        
-
-                        •Fats
-                        <br>
-                        Fats are also made up of carbon, hydrogen and oxygen. However, they contain much less oxygen in comparison to the carbohydrates. They provide more than double the amount of energy provided by the same weight of carbohydrates. fats are essential for their absorption in our body. Fats are obtained fromVegetable oils, like mustard oil, coconut oil and groundnut oil, are obtained from plants. Milk and milk products, such as butter, ghee, along with meat, fish and eggs, are sources of fats that are obtained from animals.
+                        <!-- Fats -->                        
+                        <div class="bg-primary movie_head bar" data-toggle="collapse" data-target="#fats"></span>Fats<i class="fa fa-sort-desc"></i>
+                        </div>
+                
+                        <div id="fats" class="collapse">
+                
+                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 movie-text">
+                                <p>Fats are also made up of carbon, hydrogen and oxygen. However, they contain much less oxygen in comparison to the carbohydrates. They provide more than double the amount of energy provided by the same weight of carbohydrates. fats are essential for their absorption in our body. Fats are obtained fromVegetable oils, like mustard oil, coconut oil and groundnut oil, are obtained from plants. Milk and milk products, such as butter, ghee, along with meat, fish and eggs, are sources of fats that are obtained from animals.</p>
+                            </div>
+                        </div>
                         <br> <br>
-                        •Vitamins
-                        <br>
-                        Vitamins are essential for maintaining good health and proper growth of the body. They are needed in small quantities only. They do not provide energy. However, they play an important part in most of the biochemical changes within our body. Plants are the main source of vitamins.
+                        <!-- Vitamins -->
+                        <div class="bg-primary movie_head bar" data-toggle="collapse" data-target="#vitamins"></span>Vitamins<i class="fa fa-sort-desc"></i>
+                        </div>
+                
+                        <div id="vitamins" class="collapse">
+                
+                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 movie-text">
+                                <p>Vitamins are essential for maintaining good health and proper growth of the body. They are needed in small quantities only. They do not provide energy. However, they play an important part in most of the biochemical changes within our body. Plants are the main source of vitamins.</p>
+                            </div>
+                        </div>
                         <br> <br>
-                        •Minerals
-                        <br>
-                        The important minerals, needed by our body, are sodium, potassium, magnesium, calcium, iron, manganese, copper, chloride, iodine, phosphorous and sulphur. They are needed in very small quantities for proper growth and maintenance of the body.
+                        <!-- Minerals -->
+                        <div class="bg-primary movie_head bar" data-toggle="collapse" data-target="#minerals"></span>Minerals<i class="fa fa-sort-desc"></i>
+                        </div>
+                
+                        <div id="minerals" class="collapse">
+                
+                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 movie-text">
+                                <p>The important minerals, needed by our body, are sodium, potassium, magnesium, calcium, iron, manganese, copper, chloride, iodine, phosphorous and sulphur. They are needed in very small quantities for proper growth and maintenance of the body.</p>
+                            </div>
+                        </div>
                         <br> <br>
-                        •Water
-                        <br>
-                        Water is essential for all vital processes of the body. It forms 70 per cent of our body weight. It is essential for all reactions taking place in the cells of our body.  It helps in the removal of waste products, in the form or urine, from our body. Water helps in maintaining a uniform body temperature by distributing heat. In summer, our body produces sweat which, on evaporation from the skin, helps to keep the body cool.
-                        <br>
+                        <!-- Water -->
+                        <div class="bg-primary movie_head bar" data-toggle="collapse" data-target="#water"></span>Water<i class="fa fa-sort-desc"></i>
+                        </div>
+                
+                        <div id="water" class="collapse">
+                
+                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 movie-text">
+                                <p>Water is essential for all vital processes of the body. It forms 70 per cent of our body weight. It is essential for all reactions taking place in the cells of our body.  It helps in the removal of waste products, in the form or urine, from our body. Water helps in maintaining a uniform body temperature by distributing heat. In summer, our body produces sweat which, on evaporation from the skin, helps to keep the body cool.</p>
+                            </div>
+                        </div>
                 </h4>
                 <br>
                 <h3 id="ques">WHY IS IT IMPORTANT?</h3>
@@ -180,21 +430,25 @@
                   ~ And that is what we want...</h3></p>
         </div>
 
-        <div id="YOGA"></div>
-        <div id="yoga">
 
-            <div class="page_header col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                <h2 class="text-capitalize">List of books</h2>
-            </div>
-            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 book" data-toggle="modal" data-target="#first_encyclopedia">
-                <img src="https://wallpapercave.com/wp/wp2550669.jpg" class="img-responsive img_modal">
+        <div id="EXERCISES"></div>
+        <div id="exercises">
+            <h1 id="ds">EXERCISES</h1>
+        </div>
+
+        <div id="HABITS"></div>
+        <div id="habits">
+            <h1 id="ds">HABITS TO FOLLOW</h1>
+            <!-- 1st -->
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 book" data-toggle="modal" data-target="#first_encyclopedia2">
+                <img class="hab" src="https://wallpapercave.com/wp/wp2550669.jpg" class="img-responsive img_modal">
                 <hr>
                 <p class="text-primary">
                     First Space Encyclopedia
                 </p>
             </div>
 
-        <div class="modal fade" id="first_encyclopedia">
+        <div class="modal fade" id="first_encyclopedia2">
             <div class="modal-dialog">
                 <div class="modal-content">
                     <div class="modal-header">
@@ -212,7 +466,34 @@
             </div>
         </div>
 
+        <!-- 2nd -->
+        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 book" data-toggle="modal" data-target="#first_encyclopedia">
+            <img class="hab" src="https://images.unsplash.com/photo-1530878955558-a6c31b9c97db?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MXx8bmljZXxlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&w=1000&q=80" class="img-responsive img_modal">
+            <hr>
+            <p class="text-primary">
+                First Space Encyclopedia
+            </p>
+        </div>
+
+    <div class="modal fade" id="first_encyclopedia">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">
+                        &times;
+                    </button>
+                    <h4 class="modal-title"> First Space Encyclopedia</h4>
+                </div>
+                <div class="modal-body">
+                    <img src="https://images.unsplash.com/photo-1530878955558-a6c31b9c97db?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MXx8bmljZXxlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&w=1000&q=80" class="img-responsive img_modal">
+                    <p class="p_modal">Zoom off into the galaxy and investigate all the planets, from Earth to Mars with First Space Encyclopaedia. Packed full of stunning photography, quizzes and amazing facts, children will become space experts in no time. Covering everything from observatories and rockets, to the solar system and the death of stars, children will discover all about space and space travel.<br> <a href="https://www.amazon.in/First-Space-Encyclopaedia-DK/dp/0241293421/ref=sr_1_6?crid=176WU3JFDK2JP&keywords=books+on+space+for+kids&qid=1575444723&sprefix=books+on%2Caps%2C285&sr=8-6"><b>BEST BUY LINK</b></a> </p>
+
+                </div>
+            </div>
+        </div>
     </div>
+
+        <!-- Ending one --></div>
 
     </center>
 </body>
