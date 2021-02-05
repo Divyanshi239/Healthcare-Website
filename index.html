@@ -12,6 +12,16 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <!-- <link rel="stylesheet" type="text/css" href="style.css"> -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Barlow+Condensed&family=Big+Shoulders+Display:wght@500&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Sriracha&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Sofia&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
@@ -155,7 +165,7 @@ text-decoration-thickness: 5px; */
         }
 
         #dietimg {
-            width: 300px;
+            width: 350px;
             height: 250px;
             border-radius: 20px;
             border-style: double;
@@ -165,22 +175,27 @@ text-decoration-thickness: 5px; */
         }
 
         #dietimg:hover {
-            width: 350px;
+            width: 400px;
             height: 300px;
             border-color: black;
         }
 
         #ans {
             text-align: center;
-            font-size: 25px;
+            font-family: 'Big Shoulders Display', cursive;
+            font-weight: 500;
+            font-size: 30px;
         }
 
         #ques {
             text-align: center;
-            font-size: 30px;
+            font-size: 35px;
             color: rgb(46, 108, 209);
             text-transform: uppercase;
             font-weight: bold;
+            font-family: 'Noto Sans KR', sans-serif;
+            text-decoration: underline;
+            text-decoration-color: rgb(16, 16, 110);
         }
 
         /*Medicines & Diseases*/
@@ -216,8 +231,9 @@ text-decoration-thickness: 5px; */
         }
 
         p {
-            font-size: 20px;
+            font-size: 25px;
             color: black;
+            font-family: 'Barlow Condensed', sans-serif;
         }
 
         h5 {
@@ -290,12 +306,11 @@ text-decoration-thickness: 5px; */
 
                 <!-- <li><a href="#ABOUT">About</a></li> -->
                 <li><a href="#MISSION">Mission Health</a></li>
+                <li><a href="#ABOUT">About</a></li>
                 <li><a href="#DIET">Balanced Diet</a></li>
+                <li><a href="#RECIPES">Recipes</a></li>
                 <li><a href="#EXERCISES">Exercises</a></li>
                 <li><a href="#HABITS">Habits To Follow</a></li>
-                <li><a href="#">New Topic</a></li>
-                <li><a href="#">New Topic</a></li>
-                <li><a href="#ABOUT">About</a></li>
                 <li><a href="#">Contact US</a></li>
             </ul>
         </div>
@@ -333,13 +348,34 @@ text-decoration-thickness: 5px; */
                 </div>
         </div>
 
+        <div id="ABOUT"></div>
+        <br>
+        <div id="about">
+            <h1 id="ds">ABOUT</h1>
+            <p id="ab">
+            <h3>This is our website named “Able-Bodied”. It is all about healthcare.
+                <br>
+                We made this website to serve the community by making people cognizant of their physical and mental
+                wellness and to encourage people for physical workout to take care of their and their family’s
+                health.
+                <br>
+                <br>
+                Healthy people of a country will accumulate growth of the country as healthier people are more
+                economically productive. Better health also leads to an increase in savings rates— because healthier
+                people expect to live longer and are naturally more concerned with their future financial needs.
+                <br>
+                ~ And that is what we want...
+            </h3>
+            </p>
+        </div>
+
         <div id="DIET"></div>
         <br>
         <div id="diet">
             <h1 id="ds">BALANCED DIET</h1>
             <span>
-                <img id="dietimg" src="https://cdn.cdnparenting.com/articles/2018/12/590825882-H.jpg">
-                <img id="dietimg" src="https://www.chp.gov.hk/files/jpg/adult_eng.jpg">
+                <img id="dietimg" src="Main Pic 1.jpeg">
+                <img id="dietimg" src="Main Pic 2.jpeg">
                 <h3 id="ques">WHAT IS IT?</h3>
                 <h4 id="ans">A balanced diet contains all the food items necessary for keeping body healthy and fit in
                     right proportion. This diet completes the requirement of calories, proteins, minerals, vitamins and
@@ -352,93 +388,156 @@ text-decoration-thickness: 5px; */
 
             <!-- Carbohydrates -->
             <div class="bg-primary movie_head bar" data-toggle="collapse" data-target="#carbohydrates">
-                Carbohydrates<i class="fa fa-sort-desc"></i>
+                Carbohydrates <i class="fa fa-sort-desc"></i>
             </div>
-            <div id="carbohydrates" class="collapse">
 
-                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 movie-text">
-                    <p>These are made up of carbon, hydrogen and oxygen. In our food these are present in the form of
-                        sugar and starch. These are the source of energy. For eg- Fruits like mango and banana are rich
-                        in sugar. Cereals like Wheat and rice are rich in sugar.</p>
+            <div id="carbohydrates" class="collapse">
+                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                    <img class="img-responsive img-thumbnail" src="">
+                </div>
+
+                <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 movie-text">
+                    <p class="nut"> •	Carbohydrates are the body's source of energy.                                                                                                     
+                        <br>
+                        •	They act as fuel for body’s muscles. 
+                        <br>
+                        •	Carbohydrates are mainly found in plant foods.
+                        <br>
+                        •	They are found in foods, which are good for you (vegetables) and ones, which are not (doughnuts). 
+                        <br>
+                        •	Unprocessed fruits and vegetables are well known for their nutrient content. Some are even considered superfoods because of it. 
+                        <br>
+                        •	We get carbohydrates from foods like bread, beans, milk, popcorn, potatoes, cookies, spaghetti, soft drinks, corn, cherry pie, etc. 
+                        <br>
+                        •	Not getting enough carbohydrates can cause problems. Without sufficient fuel, the body gets no energy. This may cause mental or physical weakness.
+                        </p>
                 </div>
             </div>
+
             <br> <br>
 
             <!-- Proteins -->
-            <div class="bg-primary movie_head bar" data-toggle="collapse" data-target="#proteins"></span>Proteins<i
-                    class="fa fa-sort-desc"></i>
+            <div class="bg-primary movie_head bar" data-toggle="collapse" data-target="#proteins">
+                Proteins <i class="fa fa-sort-desc"></i>
             </div>
 
             <div id="proteins" class="collapse">
+                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                    <img class="img-responsive img-thumbnail" src="">
+                </div>
 
-                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 movie-text">
-                    <p>Proteins are made up of carbon,hydrogen,oxygen,nitrogen and a small quantity of both sulphur and
-                        phosphorus. Proteins help in building up the developing tissues of a growing child. They also
-                        take care of the ‘wear and tear’ of the body tissues at all the ages.</p>
+                <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 movie-text">
+                    <p class="nut">Saw it today with my kids and they loved it.You should have a minimal previous understanding of
+                        the movies or you’ll miss 40% of the fun.At minimum:Infinity WarCivil WarBlack PantherAge ofAnt
+                        Man and the WaspProblem is that the whole movie is homage to all movies. Yet you will enjoy it a
+                        lot.There is at the beginning of the movie a (spoiler alert) head dismemberment that is quite
+                        impressive. But most is comic book style figand battles.Must go to bathroom just before the
+                        movie because ut does last 3 hours all worthwhile.</p>
                 </div>
             </div>
             <br> <br>
             <!-- Fats -->
-            <div class="bg-primary movie_head bar" data-toggle="collapse" data-target="#fats"></span>Fats<i
-                    class="fa fa-sort-desc"></i>
+            <div class="bg-primary movie_head bar" data-toggle="collapse" data-target="#fats">
+                Fats <i class="fa fa-sort-desc"></i>
             </div>
 
             <div id="fats" class="collapse">
+                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                    <img class="img-responsive img-thumbnail" src="Fats.jpeg">
+                </div>
 
-                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 movie-text">
-                    <p>Fats are also made up of carbon, hydrogen and oxygen. However, they contain much less oxygen in
-                        comparison to the carbohydrates. They provide more than double the amount of energy provided by
-                        the same weight of carbohydrates. fats are essential for their absorption in our body. Fats are
-                        obtained fromVegetable oils, like mustard oil, coconut oil and groundnut oil, are obtained from
-                        plants. Milk and milk products, such as butter, ghee, along with meat, fish and eggs, are
-                        sources of fats that are obtained from animals.</p>
+                <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 movie-text">
+                    <p class="nut">Saw it today with my kids and they loved it.You should have a minimal previous understanding of
+                        the movies or you’ll miss 40% of the fun.At minimum:Infinity WarCivil WarBlack PantherAge ofAnt
+                        Man and the WaspProblem is that the whole movie is homage to all movies. Yet you will enjoy it a
+                        lot.There is at the beginning of the movie a (spoiler alert) head dismemberment that is quite
+                        impressive. But most is comic book style figand battles.Must go to bathroom just before the
+                        movie because ut does last 3 hours all worthwhile.</p>
                 </div>
             </div>
             <br> <br>
             <!-- Vitamins -->
-            <div class="bg-primary movie_head bar" data-toggle="collapse" data-target="#vitamins"></span>Vitamins<i
-                    class="fa fa-sort-desc"></i>
+            <div class="bg-primary movie_head bar" data-toggle="collapse" data-target="#vitamins">
+                Vitamins <i class="fa fa-sort-desc"></i>
             </div>
 
             <div id="vitamins" class="collapse">
+                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                    <img class="img-responsive img-thumbnail" src="">
+                </div>
 
-                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 movie-text">
-                    <p>Vitamins are essential for maintaining good health and proper growth of the body. They are needed
-                        in small quantities only. They do not provide energy. However, they play an important part in
-                        most of the biochemical changes within our body. Plants are the main source of vitamins.</p>
+                <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 movie-text">
+                    <p>Saw it today with my kids and they loved it.You should have a minimal previous understanding of
+                        the movies or you’ll miss 40% of the fun.At minimum:Infinity WarCivil WarBlack PantherAge ofAnt
+                        Man and the WaspProblem is that the whole movie is homage to all movies. Yet you will enjoy it a
+                        lot.There is at the beginning of the movie a (spoiler alert) head dismemberment that is quite
+                        impressive. But most is comic book style figand battles.Must go to bathroom just before the
+                        movie because ut does last 3 hours all worthwhile.</p>
                 </div>
             </div>
             <br> <br>
             <!-- Minerals -->
-            <div class="bg-primary movie_head bar" data-toggle="collapse" data-target="#minerals"></span>Minerals<i
-                    class="fa fa-sort-desc"></i>
+            <div class="bg-primary movie_head bar" data-toggle="collapse" data-target="#minerals">
+                Minerals <i class="fa fa-sort-desc"></i>
             </div>
 
             <div id="minerals" class="collapse">
+                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                    <img class="img-responsive img-thumbnail" src="Minerals.jpeg">
+                </div>
 
-                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 movie-text">
-                    <p>The important minerals, needed by our body, are sodium, potassium, magnesium, calcium, iron,
-                        manganese, copper, chloride, iodine, phosphorous and sulphur. They are needed in very small
-                        quantities for proper growth and maintenance of the body.</p>
+                <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 movie-text">
+                    <p>Saw it today with my kids and they loved it.You should have a minimal previous understanding of
+                        the movies or you’ll miss 40% of the fun.At minimum:Infinity WarCivil WarBlack PantherAge ofAnt
+                        Man and the WaspProblem is that the whole movie is homage to all movies. Yet you will enjoy it a
+                        lot.There is at the beginning of the movie a (spoiler alert) head dismemberment that is quite
+                        impressive. But most is comic book style figand battles.Must go to bathroom just before the
+                        movie because ut does last 3 hours all worthwhile.</p>
                 </div>
             </div>
             <br> <br>
             <!-- Water -->
-            <div class="bg-primary movie_head bar" data-toggle="collapse" data-target="#water"></span>Water<i
-                    class="fa fa-sort-desc"></i>
+            <div class="bg-primary movie_head bar" data-toggle="collapse" data-target="#water">
+                Water <i class="fa fa-sort-desc"></i>
             </div>
 
             <div id="water" class="collapse">
+                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                    <img class="img-responsive img-thumbnail" src="">
+                </div>
 
-                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 movie-text">
-                    <p>Water is essential for all vital processes of the body. It forms 70 per cent of our body weight.
-                        It is essential for all reactions taking place in the cells of our body. It helps in the removal
-                        of waste products, in the form or urine, from our body. Water helps in maintaining a uniform
-                        body temperature by distributing heat. In summer, our body produces sweat which, on evaporation
-                        from the skin, helps to keep the body cool.</p>
+                <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 movie-text">
+                    <p>Saw it today with my kids and they loved it.You should have a minimal previous understanding of
+                        the movies or you’ll miss 40% of the fun.At minimum:Infinity WarCivil WarBlack PantherAge ofAnt
+                        Man and the WaspProblem is that the whole movie is homage to all movies. Yet you will enjoy it a
+                        lot.There is at the beginning of the movie a (spoiler alert) head dismemberment that is quite
+                        impressive. But most is comic book style figand battles.Must go to bathroom just before the
+                        movie because ut does last 3 hours all worthwhile.</p>
                 </div>
             </div>
-            </h4>
+
+            <br> <br>
+
+            <!-- Roughage -->
+            <div class="bg-primary movie_head bar" data-toggle="collapse" data-target="#roughage">
+                Roughage <i class="fa fa-sort-desc"></i>
+            </div>
+
+            <div id="roughage" class="collapse">
+                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                    <img class="img-responsive img-thumbnail" src="Roughage.jpeg">
+                </div>
+
+                <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 movie-text">
+                    <p>Saw it today with my kids and they loved it.You should have a minimal previous understanding of
+                        the movies or you’ll miss 40% of the fun.At minimum:Infinity WarCivil WarBlack PantherAge ofAnt
+                        Man and the WaspProblem is that the whole movie is homage to all movies. Yet you will enjoy it a
+                        lot.There is at the beginning of the movie a (spoiler alert) head dismemberment that is quite
+                        impressive. But most is comic book style figand battles.Must go to bathroom just before the
+                        movie because ut does last 3 hours all worthwhile.</p>
+                </div>
+            </div>
+
             <br>
             <h3 id="ques">WHY IS IT IMPORTANT?</h3>
             <h4 id="ans">Water is essential for all vital processes of the body. It forms 70 per cent of our body
@@ -454,118 +553,96 @@ text-decoration-thickness: 5px; */
         </div>
 
 
-            <div id="ABOUT"></div>
-            <br>
-            <div id="about">
-                <h1 id="ds">ABOUT</h1>
-                <p id="ab">
-                <h3>This is our website named “Able-Bodied”. It is all about healthcare.
-                    <br>
-                    We made this website to serve the community by making people cognizant of their physical and mental
-                    wellness and to encourage people for physical workout to take care of their and their family’s
-                    health.
-                    <br>
-                    <br>
-                    Healthy people of a country will accumulate growth of the country as healthier people are more
-                    economically productive. Better health also leads to an increase in savings rates— because healthier
-                    people expect to live longer and are naturally more concerned with their future financial needs.
-                    <br>
-                    ~ And that is what we want...
-                </h3>
+        <div id="EXERCISES"></div>
+        <div id="exercises">
+            <h1 id="ds">EXERCISES</h1>
+        </div>
+
+        <div id="HABITS"></div>
+        <div id="habits">
+            <h1 id="ds">HABITS TO FOLLOW</h1>
+
+            <!-- 1st -->
+            <div class="col-lg-4 col-md-7 col-sm-10 col-xs-12 book" data-toggle="modal"
+                data-target="#first_encyclopedia2">
+                <img class="hab" src="https://wallpapercave.com/wp/wp2550669.jpg" class="img-responsive img_modal">
+                <hr>
+                <p class="text-primary">
+                    First Space Encyclopedia
                 </p>
             </div>
 
+            <div class="modal fade" id="first_encyclopedia2">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal">
+                                &times;
+                            </button>
+                            <h4 class="modal-title"> First Space Encyclopedia</h4>
+                        </div>
+                        <div class="modal-body">
+                            <img src="https://wallpapercave.com/wp/wp2550669.jpg" class="img-responsive img_modal">
+                            <p class="p_modal">Zoom off into the galaxy and investigate all the planets, from Earth
+                                to
+                                Mars with First Space Encyclopaedia. Packed full of stunning photography, quizzes
+                                and
+                                amazing facts, children will become space experts in no time. Covering everything
+                                from
+                                observatories and rockets, to the solar system and the death of stars, children will
+                                discover all about space and space travel.<br> <a target="blank"
+                                    href="https://www.amazon.in/First-Space-Encyclopaedia-DK/dp/0241293421/ref=sr_1_6?crid=176WU3JFDK2JP&keywords=books+on+space+for+kids&qid=1575444723&sprefix=books+on%2Caps%2C285&sr=8-6"><b>BEST
+                                        BUY LINK</b></a> </p>
 
-            <div id="EXERCISES"></div>
-            <div id="exercises">
-                <h1 id="ds">EXERCISES</h1>
-            </div>
-
-            <div id="HABITS"></div>
-            <div id="habits">
-                <h1 id="ds">HABITS TO FOLLOW</h1>
-
-                <!-- 1st -->
-                <div class="col-lg-4 col-md-7 col-sm-10 col-xs-12 book" data-toggle="modal"
-                    data-target="#first_encyclopedia2">
-                    <img class="hab" src="https://wallpapercave.com/wp/wp2550669.jpg" class="img-responsive img_modal">
-                    <hr>
-                    <p class="text-primary">
-                        First Space Encyclopedia
-                    </p>
-                </div>
-
-                <div class="modal fade" id="first_encyclopedia2">
-                    <div class="modal-dialog">
-                        <div class="modal-content">
-                            <div class="modal-header">
-                                <button type="button" class="close" data-dismiss="modal">
-                                    &times;
-                                </button>
-                                <h4 class="modal-title"> First Space Encyclopedia</h4>
-                            </div>
-                            <div class="modal-body">
-                                <img src="https://wallpapercave.com/wp/wp2550669.jpg" class="img-responsive img_modal">
-                                <p class="p_modal">Zoom off into the galaxy and investigate all the planets, from Earth
-                                    to
-                                    Mars with First Space Encyclopaedia. Packed full of stunning photography, quizzes
-                                    and
-                                    amazing facts, children will become space experts in no time. Covering everything
-                                    from
-                                    observatories and rockets, to the solar system and the death of stars, children will
-                                    discover all about space and space travel.<br> <a target="blank"
-                                        href="https://www.amazon.in/First-Space-Encyclopaedia-DK/dp/0241293421/ref=sr_1_6?crid=176WU3JFDK2JP&keywords=books+on+space+for+kids&qid=1575444723&sprefix=books+on%2Caps%2C285&sr=8-6"><b>BEST
-                                            BUY LINK</b></a> </p>
-
-                            </div>
                         </div>
                     </div>
                 </div>
+            </div>
 
-                <!-- 2nd -->
-                <div class="col-lg-4 col-md-7 col-sm-10 col-xs-12 book" data-toggle="modal"
-                    data-target="#first_encyclopedia">
-                    <img class="hab"
-                        src="https://images.unsplash.com/photo-1530878955558-a6c31b9c97db?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MXx8bmljZXxlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&w=1000&q=80"
-                        class="img-responsive img_modal">
-                    <hr>
-                    <p class="text-primary">
-                        First Space Encyclopedia
-                    </p>
-                </div>
+            <!-- 2nd -->
+            <div class="col-lg-4 col-md-7 col-sm-10 col-xs-12 book" data-toggle="modal"
+                data-target="#first_encyclopedia">
+                <img class="hab"
+                    src="https://images.unsplash.com/photo-1530878955558-a6c31b9c97db?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MXx8bmljZXxlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&w=1000&q=80"
+                    class="img-responsive img_modal">
+                <hr>
+                <p class="text-primary">
+                    First Space Encyclopedia
+                </p>
+            </div>
 
-                <div class="modal fade" id="first_encyclopedia">
-                    <div class="modal-dialog">
-                        <div class="modal-content">
-                            <div class="modal-header">
-                                <button type="button" class="close" data-dismiss="modal">
-                                    &times;
-                                </button>
-                                <h4 class="modal-title"> First Space Encyclopedia</h4>
-                            </div>
-                            <div class="modal-body">
-                                <img src="https://images.unsplash.com/photo-1530878955558-a6c31b9c97db?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MXx8bmljZXxlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&w=1000&q=80"
-                                    class="img-responsive img_modal">
-                                <p class="p_modal">Zoom off into the galaxy and investigate all the planets, from Earth
-                                    to
-                                    Mars with First Space Encyclopaedia. Packed full of stunning photography, quizzes
-                                    and
-                                    amazing facts, children will become space experts in no time. Covering everything
-                                    from
-                                    observatories and rockets, to the solar system and the death of stars, children will
-                                    discover all about space and space travel.<br>
-                                    <a target="blank"
-                                        href="https://www.amazon.in/First-Space-Encyclopaedia-DK/dp/0241293421/ref=sr_1_6?crid=176WU3JFDK2JP&keywords=books+on+space+for+kids&qid=1575444723&sprefix=books+on%2Caps%2C285&sr=8-6"><b>BEST
-                                            BUY LINK</b></a>
-                                </p>
+            <div class="modal fade" id="first_encyclopedia">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal">
+                                &times;
+                            </button>
+                            <h4 class="modal-title"> First Space Encyclopedia</h4>
+                        </div>
+                        <div class="modal-body">
+                            <img src="https://images.unsplash.com/photo-1530878955558-a6c31b9c97db?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MXx8bmljZXxlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&w=1000&q=80"
+                                class="img-responsive img_modal">
+                            <p class="p_modal">Zoom off into the galaxy and investigate all the planets, from Earth
+                                to
+                                Mars with First Space Encyclopaedia. Packed full of stunning photography, quizzes
+                                and
+                                amazing facts, children will become space experts in no time. Covering everything
+                                from
+                                observatories and rockets, to the solar system and the death of stars, children will
+                                discover all about space and space travel.<br>
+                                <a target="blank"
+                                    href="https://www.amazon.in/First-Space-Encyclopaedia-DK/dp/0241293421/ref=sr_1_6?crid=176WU3JFDK2JP&keywords=books+on+space+for+kids&qid=1575444723&sprefix=books+on%2Caps%2C285&sr=8-6"><b>BEST
+                                        BUY LINK</b></a>
+                            </p>
 
-                            </div>
                         </div>
                     </div>
                 </div>
-
-                <!-- Ending one -->
             </div>
+
+            <!-- Ending one -->
+        </div>
 
     </center>
 </body>
