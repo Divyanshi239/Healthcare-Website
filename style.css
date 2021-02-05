@@ -1,4 +1,4 @@
-#Name
+#name
 {
     background-image: "Background.JPG";
 }
@@ -61,7 +61,10 @@ text-decoration-thickness: 5px; */
 #DIET, 
 #DISEASES,
 #MISSION,
-#ABOUT {
+#ABOUT,
+#EXERCISES,
+#HABITS
+ {
     background-image: linear-gradient(to right, rgba(38, 0, 255, 0), rgb(0, 81, 255));
     height: 5px;
     margin: 0 !important;
@@ -179,6 +182,11 @@ h5
     font-size: 40px;
 }
 
+.movie_text
+{
+    text-align: center;
+}
+
 /*About Screen*/
 
 #ab
@@ -209,4 +217,11 @@ h5
 
 .modal-body {
     text-align: center;
+}
+
+/* Habits Screen */
+.hab
+{
+    height: 200px;
+    width: 300px;
 }
