@@ -10,7 +10,7 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Cinzel+Decorative&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <!-- <link rel="stylesheet" type="text/css" href="style.css"> -->
+    <link rel="stylesheet" type="text/css" href="style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -289,6 +289,13 @@ text-decoration-thickness: 5px; */
             height: 200px;
             width: 300px;
         }
+
+        .line {
+            border-color: pink;
+            border-width: 2px;
+            border-style: solid;
+            border-radius: 15px;
+        }
     </style>
 </head>
 
@@ -373,8 +380,6 @@ text-decoration-thickness: 5px; */
         <div id="diet">
             <h1 id="ds">BALANCED DIET</h1>
             <span>
-                <img id="dietimg" src="Main Pic 1.jpeg">
-                <img id="dietimg" src="Main Pic 2.jpeg">
                 <h3 id="ques">WHAT IS IT?</h3>
                 <h4 id="ans">A balanced diet contains all the food items necessary for keeping body healthy and fit in
                     right proportion. This diet completes the requirement of calories, proteins, minerals, vitamins and
@@ -392,7 +397,7 @@ text-decoration-thickness: 5px; */
 
             <div id="carbohydrates" class="collapse">
                 <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
-                    <img class="img-responsive img-thumbnail" src="">
+                    <img class="img-responsive img-thumbnail" src="Carbohydrates.jpeg">
                 </div>
 
                 <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 movie-text">
@@ -411,7 +416,8 @@ text-decoration-thickness: 5px; */
                         • We get carbohydrates from foods like bread, beans, milk, popcorn, potatoes, cookies,
                         spaghetti, soft drinks, corn, cherry pie, etc.
                         <br>
-                    <p class="imp">• Not getting enough carbohydrates can cause problems. Without sufficient fuel, the
+                    <p class="imp">• Not getting enough carbohydrates can cause problems. Without sufficient fuel,
+                        the
                         body gets no
                         energy. This may cause mental or physical weakness.</p>
                     </p>
@@ -432,7 +438,8 @@ text-decoration-thickness: 5px; */
 
                 <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 movie-text">
                     <p class="nut">
-                        • Protein is a part of every cell in the body. It helps the body to build and repair cells and
+                        • Protein is a part of every cell in the body. It helps the body to build and repair cells
+                        and
                         tissues.
                         <br>
                         • Protein is essential for growth and development.
@@ -440,16 +447,20 @@ text-decoration-thickness: 5px; */
                         • Proteins are found in- seafood, lean meats and poultry, eggs, nuts, seeds, soy products,
                         pulses etc.
                         <br>
-                        • Protein deficiency can lead to malnutrition, such as kwashiorkor and marasmus, which can be
+                        • Protein deficiency can lead to malnutrition, such as kwashiorkor and marasmus, which can
+                        be
                         life threatening.
                         <br>
                     <p class="imp">
-                        • Replace regular snacks with high protein snacks, such as nuts, roasted chickpeas, and peanut
+                        • Replace regular snacks with high protein snacks, such as nuts, roasted chickpeas, and
+                        peanut
                         butter to get enough protein every day.</p>
                     </p>
                 </div>
             </div>
+
             <br> <br>
+
             <!-- Fats -->
             <div class="bg-primary movie_head bar" data-toggle="collapse" data-target="#fats">
                 Fats <i class="fa fa-sort-desc"></i>
@@ -477,7 +488,9 @@ text-decoration-thickness: 5px; */
                     </p>
                 </div>
             </div>
+
             <br> <br>
+
             <!-- Vitamins -->
             <div class="bg-primary movie_head bar" data-toggle="collapse" data-target="#vitamins">
                 Vitamins <i class="fa fa-sort-desc"></i>
@@ -485,7 +498,7 @@ text-decoration-thickness: 5px; */
 
             <div id="vitamins" class="collapse">
                 <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
-                    <img class="img-responsive img-thumbnail" src="">
+                    <img class="img-responsive img-thumbnail" src="Vitamins.jpeg">
                 </div>
 
                 <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 movie-text">
@@ -503,19 +516,19 @@ text-decoration-thickness: 5px; */
                         Other examples are- yellow fruits, lemon, Indian gooseberry, milk, tomato, etc.
                     </p>
                 </div>
-                <table border="2px" width="100%" >
+                <table border="2px" width="100%">
                     <tbody>
                         <tr>
-                            <td> Vitamins </td>
-                            <td> Sources </td>
-                            <td> Functions </td>
-                            <td> Deficiency Diseases And Their Symptoms </td>
+                            <td width="13%" > Vitamins </td>
+                            <td width="29%" > Sources </td>
+                            <td width="29%" > Functions </td>
+                            <td width="29%" > Deficiency Diseases And Their Symptoms </td>
                         </tr>
                         <tr>
-                            <td width="16%">Vitamin A </td>
-                            <td width="28%">Cod liver oil, milk, butter, ghee, yellow vegetables and fruits</td>
-                            <td width="28%">Needed for healthy eyes, skin and tissues</td>
-                            <td width="28%">Night blindness and dryness of skin</td>
+                            <td>Vitamin A </td>
+                            <td>Cod liver oil, milk, butter, ghee, yellow vegetables and fruits</td>
+                            <td>Needed for healthy eyes, skin and tissues</td>
+                            <td>Night blindness and dryness of skin</td>
                         </tr>
                         <tr>
                             <td>Vitamin B</td>
@@ -523,10 +536,36 @@ text-decoration-thickness: 5px; */
                             <td>Needed for making muscles strong, getting energy to do work</td>
                             <td>Beri-Beri, weak muscles and weakness</td>
                         </tr>
+                        <tr>
+                            <td>Vitamin C</td>
+                            <td>Indian gooseberries, green chillies, citrus fruits</td>
+                            <td>Needed for healthy bones and teeth</td>
+                            <td>Scurvy, spongy and bleeding gums</td>
+                        </tr>
+                        <tr>
+                            <td>Vitamin D</td>
+                            <td>Milk and milk products, eggs, cod-liver oil, sunlight</td>
+                            <td>Needed for healthy bones and teeth</td>
+                            <td>Rickets, curved and and deformed bones, bow legs</td>
+                        </tr>
+                        <tr>
+                            <td>Vitamin E</td>
+                            <td>Vegetable oils, green vegetables, tomato</td>
+                            <td>Smooth functioning of reproductive system</td>
+                            <td>Sterility</td>
+                        </tr>
+                        <tr>
+                            <td>Vitamin K</td>
+                            <td>Green leafy vegetables</td>
+                            <td>Helps in blood clotting</td>
+                            <td>Prolong and profused bleeding due to delayed blood clotting</td>
+                        </tr>
                     </tbody>
                 </table>
             </div>
+
             <br> <br>
+
             <!-- Minerals -->
             <div class="bg-primary movie_head bar" data-toggle="collapse" data-target="#minerals">
                 Minerals <i class="fa fa-sort-desc"></i>
@@ -538,20 +577,24 @@ text-decoration-thickness: 5px; */
                 </div>
 
                 <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 movie-text">
-                    <p>• Minerals are the nutrients, which are required by our body to develop and function normally.
+                    <p>• Minerals are the nutrients, which are required by our body to develop and function
+                        normally.
                         <br>
                         • Minerals help in keeping our bones, muscles, heart, and brain healthy.
                         <br>
                         • They also help our body to grow, develop, and stay healthy.
                         <br>
-                        • Mineral deficiencies can lead to a variety of health problems, such as weak bones, fatigue, or
+                        • Mineral deficiencies can lead to a variety of health problems, such as weak bones,
+                        fatigue, or
                         a decreased immune system.
                         <br>
                         • Sources of minerals are- meat, cereals, fish, milk, fruits and vegetable, nuts, etc.
                     </p>
                 </div>
             </div>
+
             <br> <br>
+
             <!-- Water -->
             <div class="bg-primary movie_head bar" data-toggle="collapse" data-target="#water">
                 Water <i class="fa fa-sort-desc"></i>
@@ -559,7 +602,7 @@ text-decoration-thickness: 5px; */
 
             <div id="water" class="collapse">
                 <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
-                    <img class="img-responsive img-thumbnail" src="">
+                    <img class="img-responsive img-thumbnail" src="Water Source.jpeg">
                 </div>
 
                 <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 movie-text">
@@ -570,7 +613,8 @@ text-decoration-thickness: 5px; */
                         <br>
                         • Blood contains a large amount of water.
                         <br>
-                        • Drinking impure water can let diseases like diarrhea, cholera, hepatitis, etc. enter our body.
+                        • Drinking impure water can let diseases like diarrhea, cholera, hepatitis, etc. enter our
+                        body.
                     <p class="imp">
                         • Inadequate intake of water may lead to reduction of amount of hemoglobin in body.
                     </p>
@@ -592,12 +636,14 @@ text-decoration-thickness: 5px; */
 
                 <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 movie-text">
                     <p>
-                        • Roughage is the portion of plant foods, such as whole grains, nuts, seeds, legumes, fruits,
+                        • Roughage is the portion of plant foods, such as whole grains, nuts, seeds, legumes,
+                        fruits,
                         and vegetables that a body cannot digest.
                         <br>
                         • Roughage helps in decreasing constipation, and feeding beneficial gut bacteria.
                         <br>
-                        • Roughage sources are- lentils, chickpeas, pears, avocado, apple, corn, almonds, oats, kidney
+                        • Roughage sources are- lentils, chickpeas, pears, avocado, apple, corn, almonds, oats,
+                        kidney
                         beans, etc.
                         <br>
                         <br>
@@ -621,6 +667,15 @@ text-decoration-thickness: 5px; */
                 sick. It boosts our immunity as well to fight from certain communicable and non-communicable diseases.
             </h4>
             </span>
+            <span>
+                <img id="dietimg" src="Main Pic 1.jpeg">
+                <img id="dietimg" src="Main Pic 2.jpeg">
+            </span>
+            <br>
+            <br>
+            <span>
+                <img id="dietimg" src="Main Pic 3.jpeg">
+            </span>
         </div>
 
 
@@ -634,182 +689,198 @@ text-decoration-thickness: 5px; */
             <h1 id="ds">HABITS TO FOLLOW</h1>
 
             <!-- 1st -->
-            <div class="col-lg-4 col-md-7 col-sm-10 col-xs-12 book" data-toggle="modal" data-target="#1st">
-                <img class="hab" src="Salad.jpeg" class="img-responsive img_modal">
-                <hr>
-                <p class="text-primary">
-                    Salad
-                </p>
-            </div>
+            <div class="line">
+                <div class="col-lg-4 col-md-7 col-sm-10 col-xs-12 book" data-toggle="modal" data-target="#1st">
+                    <img class="hab" src="Salad.jpeg" class="img-responsive img_modal">
+                    <hr>
+                    <p class="text-primary">
+                        Salad
+                    </p>
+                </div>
 
-            <div class="modal fade" id="1st">
-                <div class="modal-dialog">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <button type="button" class="close" data-dismiss="modal">
-                                &times;
-                            </button>
-                            <h4 class="modal-title"> First Space Encyclopedia</h4>
-                        </div>
-                        <div class="modal-body">
-                            <img src="Salad.jpeg" class="img-responsive img_modal">
-                            <p class="p_modal">Fresh Fruits and certain vegetables should not be cooked instead, they
-                                should be eaten raw in the form of salad because, cooking destroys various nutrients of
-                                fruits and vegetables.<br> </p>
+                <div class="modal fade" id="1st">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal">
+                                    &times;
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <img src="Salad.jpeg" class="img-responsive img_modal">
+                                <p class="p_modal">Fresh Fruits and certain vegetables should not be cooked instead,
+                                    they
+                                    should be eaten raw in the form of salad because, cooking destroys various nutrients
+                                    of
+                                    fruits and vegetables.<br> </p>
 
+                            </div>
                         </div>
                     </div>
                 </div>
+
             </div>
 
             <!-- 2nd -->
-            <div class="col-lg-4 col-md-7 col-sm-10 col-xs-12 book" data-toggle="modal" data-target="#2nd">
-                <img class="hab"
-                    src="https://images.unsplash.com/photo-1530878955558-a6c31b9c97db?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MXx8bmljZXxlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&w=1000&q=80"
-                    class="img-responsive img_modal">
-                <hr>
-                <p class="text-primary">
-                    Cooking
-                </p>
-            </div>
+            <div class="line">
+                <div class="col-lg-4 col-md-7 col-sm-10 col-xs-12 book" data-toggle="modal" data-target="#2nd">
+                    <img class="hab"
+                        src="https://images.unsplash.com/photo-1530878955558-a6c31b9c97db?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MXx8bmljZXxlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&w=1000&q=80"
+                        class="img-responsive img_modal">
+                    <hr>
+                    <p class="text-primary">
+                        Cooking
+                    </p>
+                </div>
 
-            <div class="modal fade" id="2nd">
-                <div class="modal-dialog">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <button type="button" class="close" data-dismiss="modal">
-                                &times;
-                            </button>
-                            <h4 class="modal-title"> First Space Encyclopedia</h4>
-                        </div>
-                        <div class="modal-body">
-                            <img src="https://images.unsplash.com/photo-1530878955558-a6c31b9c97db?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MXx8bmljZXxlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&w=1000&q=80"
-                                class="img-responsive img_modal">
-                            <p class="p_modal">2. The food items which are hard to digest should be cooked well because
-                                it makes the food easy to digest. Cooking makes the food softer and tastier. It also
-                                improves the fragrance of the food, as well as it kills the germs present in the
-                                vegetables.<br>
-                            </p>
+                <div class="modal fade" id="2nd">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal">
+                                    &times;
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <img src="https://images.unsplash.com/photo-1530878955558-a6c31b9c97db?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MXx8bmljZXxlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&w=1000&q=80"
+                                    class="img-responsive img_modal">
+                                <p class="p_modal">2. The food items which are hard to digest should be cooked well
+                                    because
+                                    it makes the food easy to digest. Cooking makes the food softer and tastier. It also
+                                    improves the fragrance of the food, as well as it kills the germs present in the
+                                    vegetables.<br>
+                                </p>
 
+                            </div>
                         </div>
                     </div>
                 </div>
+
             </div>
 
             <!-- 3rd -->
-            <div class="col-lg-4 col-md-7 col-sm-10 col-xs-12 book" data-toggle="modal" data-target="#3rd">
-                <img class="hab" src="Water.jpeg" class="img-responsive img_modal">
-                <hr>
-                <p class="text-primary">
-                    Drinking Plenty Water
-                </p>
-            </div>
+            <div class="line">
+                <div class="col-lg-4 col-md-7 col-sm-10 col-xs-12 book" data-toggle="modal" data-target="#3rd">
+                    <img class="hab" src="Water.jpeg" class="img-responsive img_modal">
+                    <hr>
+                    <p class="text-primary">
+                        Drinking Plenty Water
+                    </p>
+                </div>
 
-            <div class="modal fade" id="3rd">
-                <div class="modal-dialog">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <button type="button" class="close" data-dismiss="modal">
-                                &times;
-                            </button>
-                            <h4 class="modal-title"> First Space Encyclopedia</h4>
-                        </div>
-                        <div class="modal-body">
-                            <img src="Water.jpeg" class="img-responsive img_modal">
-                            <p class="p_modal">We should drink plenty of water to increase the amount of hydration in
-                                our body.<br>
-                            </p>
+                <div class="modal fade" id="3rd">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal">
+                                    &times;
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <img src="Water.jpeg" class="img-responsive img_modal">
+                                <p class="p_modal">We should drink plenty of water to increase the amount of hydration
+                                    in
+                                    our body.<br>
+                                </p>
 
+                            </div>
                         </div>
                     </div>
                 </div>
+
             </div>
 
             <!-- 4th -->
-            <div class="col-lg-4 col-md-7 col-sm-10 col-xs-12 book" data-toggle="modal" data-target="#4th">
-                <img class="hab" src="Washing Hands.jpeg" class="img-responsive img_modal">
-                <hr>
-                <p class="text-primary">
-                    Washing Hands
-                </p>
-            </div>
+            <div class="line">
+                <div class="col-lg-4 col-md-7 col-sm-10 col-xs-12 book" data-toggle="modal" data-target="#4th">
+                    <img class="hab" src="Washing Hands.jpeg" class="img-responsive img_modal">
+                    <hr>
+                    <p class="text-primary">
+                        Washing Hands
+                    </p>
+                </div>
 
-            <div class="modal fade" id="4th">
-                <div class="modal-dialog">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <button type="button" class="close" data-dismiss="modal">
-                                &times;
-                            </button>
-                            <h4 class="modal-title"> First Space Encyclopedia</h4>
-                        </div>
-                        <div class="modal-body">
-                            <img src="Washing Hands.jpeg" class="img-responsive img_modal">
-                            <p class="p_modal">Our hands consist of many germs, so we should always wash our hands
-                                before and after the meals.<br>
-                            </p>
+                <div class="modal fade" id="4th">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal">
+                                    &times;
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <img src="Washing Hands.jpeg" class="img-responsive img_modal">
+                                <p class="p_modal">Our hands consist of many germs, so we should always wash our hands
+                                    before and after the meals.<br>
+                                </p>
 
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
 
             <!-- 5th -->
-            <div class="col-lg-4 col-md-7 col-sm-10 col-xs-12 book" data-toggle="modal" data-target="#5th">
-                <img class="hab" src="Fruit Basket.jpeg" class="img-responsive img_modal">
-                <hr>
-                <p class="text-primary">
-                    Keeping Food Items Covered
-                </p>
-            </div>
+            <div class="line">
+                <div class="col-lg-4 col-md-7 col-sm-10 col-xs-12 book" data-toggle="modal" data-target="#5th">
+                    <img class="hab" src="Fruit Basket.jpeg" class="img-responsive img_modal">
+                    <hr>
+                    <p class="text-primary">
+                        Keeping Food Items Covered
+                    </p>
+                </div>
 
-            <div class="modal fade" id="5th">
-                <div class="modal-dialog">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <button type="button" class="close" data-dismiss="modal">
-                                &times;
-                            </button>
-                            <h4 class="modal-title"> First Space Encyclopedia</h4>
-                        </div>
-                        <div class="modal-body">
-                            <img src="Fruit Basket.jpeg" class="img-responsive img_modal">
-                            <p class="p_modal">5. We should not eat uncovered food items because it may get exposed with
-                                flies and germs. It is because that it may cause diseases like diarrhoea, food
-                                poisoning, stomach ache etc.<br>
-                            </p>
+                <div class="modal fade" id="5th">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal">
+                                    &times;
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <img src="Fruit Basket.jpeg" class="img-responsive img_modal">
+                                <p class="p_modal">5. We should not eat uncovered food items because it may get exposed
+                                    with
+                                    flies and germs. It is because that it may cause diseases like diarrhoea, food
+                                    poisoning, stomach ache etc.<br>
+                                </p>
 
+                            </div>
                         </div>
                     </div>
                 </div>
+
             </div>
 
             <!-- 6th -->
-            <div class="col-lg-4 col-md-7 col-sm-10 col-xs-12 book" data-toggle="modal" data-target="#6th">
-                <img class="hab" src="Washing fruits.jpeg" class="img-responsive img_modal">
-                <hr>
-                <p class="text-primary">
-                    Washing Food Items
-                </p>
-            </div>
+            <div class="line">
+                <div class="col-lg-4 col-md-7 col-sm-10 col-xs-12 book" data-toggle="modal" data-target="#6th">
+                    <img class="hab" src="Washing fruits.jpeg" class="img-responsive img_modal">
+                    <hr>
+                    <p class="text-primary">
+                        Washing Food Items
+                    </p>
+                </div>
 
-            <div class="modal fade" id="6th">
-                <div class="modal-dialog">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <button type="button" class="close" data-dismiss="modal">
-                                &times;
-                            </button>
-                            <h4 class="modal-title"> First Space Encyclopedia</h4>
-                        </div>
-                        <div class="modal-body">
-                            <img src="Washing fruits.jpeg" class="img-responsive img_modal">
-                            <p class="p_modal">6. Always wash fruits and vegetables before peeling and cutting.<br>
-                            </p>
+                <div class="modal fade" id="6th">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal">
+                                    &times;
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <img src="Washing fruits.jpeg" class="img-responsive img_modal">
+                                <p class="p_modal">6. Always wash fruits and vegetables before peeling and cutting.<br>
+                                </p>
 
+                            </div>
                         </div>
                     </div>
                 </div>
+
             </div>
 
 
