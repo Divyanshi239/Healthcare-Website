@@ -55,10 +55,9 @@
     <link href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap" rel="stylesheet">
-    <link src="main.js">
+
     <style>
-        body
-        {
+        body {
             font-family: 'Oswald', sans-serif !important;
         }
 
@@ -278,6 +277,12 @@
             height: 200px;
             width: 300px;
         }
+
+        /* Exercise Screen */
+        #exer {
+            width: 270px;
+            height: 270px;
+        }
     </style>
 </head>
 
@@ -297,7 +302,7 @@
                 <li><a href="#ABOUT">About</a></li>
                 <li><a href="#DIET">Balanced Diet</a></li>
                 <li><a href="#RECIPES">Recipes</a></li>
-                <li><a href="#EXERCISES">Exercises</a></li>
+                <li><a href="#FITNESS">Physical Fitness</a></li>
                 <li><a href="#HABITS">Habits To Follow</a></li>
                 <li><a href="#">Contact US</a></li>
             </ul>
@@ -308,6 +313,7 @@
         <div id="NAME"></div>
         <div></div>
         <div id="name">
+            <button style="float: right; height:40px; width: 100px;" class="glyphicon glyphicon-volume-up" onclick="speak()" ></button>
             <br>
             <img id="logo" src="Logo.png">
             <h1 id="main">We Care For Your</h1>
@@ -498,13 +504,13 @@
                         Other examples are- yellow fruits, lemon, Indian gooseberry, milk, tomato, etc.
                     </p>
                 </div>
-                <table border="2px" width="100%">
+                <table style="margin: 5px 5px 5px 5px;" border="2px" width="100%">
                     <tbody>
                         <tr>
-                            <td width="13%"> Vitamins </td>
-                            <td width="29%"> Sources </td>
-                            <td width="29%"> Functions </td>
-                            <td width="29%"> Deficiency Diseases And Their Symptoms </td>
+                            <td width="15%"> Vitamins </td>
+                            <td width="27%"> Sources </td>
+                            <td width="27%"> Functions </td>
+                            <td width="27%"> Deficiency Diseases And Their Symptoms </td>
                         </tr>
                         <tr>
                             <td>Vitamin A </td>
@@ -661,12 +667,21 @@
         </div>
 
 
-        <div id="EXERCISES"></div>
-        <div id="exercises">
-            <h1 id="ds">EXERCISES</h1>
+        <div id="FITNESS"></div>
+        <br>
+        <div id="fitness">
+            <h1 id="ds">PHYSICAL FITNESS</h1>
+                <h3>EXERCISES</h3>
+                <span>
+                    <img id="exer" src="Cycling.jpeg">
+                    <h4></h4>
+                </span>
+            <br>
+            <br>
         </div>
 
         <div id="HABITS"></div>
+        <br>
         <div id="habits">
             <h1 id="ds">HABITS TO FOLLOW</h1>
 
