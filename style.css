@@ -53,10 +53,9 @@ html {
 #DIET,
 #RECIPES,
 #FITNESS,
-#HABITS {
+#HABITS{
     background-image: linear-gradient(to right, rgba(38, 0, 255, 0), rgb(0, 81, 255));
     height: 5px;
-    margin: 0 !important;
 }
 
 /*Our Mission Page*/
@@ -218,10 +217,36 @@ p {
 #ans,
 .sen {
     font-size: 25px !important;
+    color: black;
+}
+
+.top
+{
+    font-size: 25px;
 }
 
 #nutri
 {
     font-size: 22px;
     text-align: left;
+}
+/**/
+.travel_mainDiv {
+    border: 1px solid #c7c7c7;
+    padding-left: 0px;
+    padding-right: 0px;
+    float: none
+}
+
+.travel_mainDiv img {
+    width: 100%;
+}
+
+.travel_mainDiv hr {
+    width: 230px;
+}
+
+.travel_mainDiv h5,
+.travel_mainDiv p {
+    margin-left: 20px;
 }
