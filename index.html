@@ -55,235 +55,6 @@
     <link href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap" rel="stylesheet">
-
-    <style>
-        body {
-            font-family: 'Oswald', sans-serif !important;
-        }
-
-        #name {
-            background-image: "Background.JPG";
-        }
-
-        .my_nav_bar {
-            position: sticky;
-            top: 0;
-            z-index: 9999;
-            font-family: 'Lobster', cursive;
-            font-size: 20px;
-        }
-
-        .qwerty {
-            font-size: 30px;
-        }
-
-        html {
-            scroll-behavior: smooth;
-        }
-
-        /*Main Page*/
-
-        #main {
-            font-size: 100px;
-            color: black;
-            text-align: center;
-            font-family: 'Fredericka the Great', cursive;
-            font-weight: 500;
-        }
-
-        #get {
-            height: 40px;
-            width: 120px;
-            text-align: center;
-            background-color: rgb(84, 195, 223);
-            border: none;
-            border-radius: 5px;
-            color: white;
-        }
-
-        #logo {
-            border-radius: 50px;
-            height: 300px;
-            width: 300px;
-        }
-
-        #MISSION,
-        #DIET,
-        #DISEASES,
-        #MISSION,
-        #ABOUT,
-        #EXERCISES,
-        #HABITS {
-            background-image: linear-gradient(to right, rgba(38, 0, 255, 0), rgb(0, 81, 255));
-            height: 5px;
-            margin: 0 !important;
-        }
-
-        /*Our Mission Page*/
-
-        #m {
-            width: 350px;
-            height: 150px;
-        }
-
-        #a,
-        #b,
-        #c,
-        #d {
-            height: 250px;
-            width: 300px;
-            background-color: white;
-            border-width: 5px;
-            border-style: double;
-            margin-left: 1px;
-            margin-right: 1px;
-            margin-top: 4px;
-        }
-
-        #mi {
-            color: blueviolet;
-            font-family: "Sofia", cursive;
-
-        }
-
-        /*Balnced Diet Page*/
-
-        #dietimg {
-            width: 350px;
-            height: 250px;
-            border-radius: 20px;
-            border-style: double;
-            border-color: brown;
-            border-width: 10px;
-            margin: 2px;
-        }
-
-        #dietimg:hover {
-            width: 400px;
-            height: 300px;
-            border-color: black;
-        }
-
-        #ans {
-            text-align: center;
-            font-weight: 500;
-            font-size: 30px;
-        }
-
-        #ques {
-            text-align: center;
-            font-size: 35px;
-            color: rgb(46, 108, 209);
-            text-transform: uppercase;
-            font-weight: bold;
-            text-decoration: underline;
-            text-decoration-color: rgb(16, 16, 110);
-        }
-
-        /*Medicines & Diseases*/
-        .movie_head {
-            font-size: 20px;
-            padding: 6px 22px;
-            border-radius: 10px;
-            /*margin-bottom: 15px;*/
-            width: 100%;
-            display: inline-block;
-        }
-
-        .movie_head i {
-            float: right;
-        }
-
-        .movie_text span {
-            color: dimgrey;
-        }
-
-        #diseases {
-            margin-top: 0px !important;
-        }
-
-        .bar {
-            background-color: transparent;
-            color: black;
-            font-size: 30px;
-            font-weight: bold;
-            border-width: 2px;
-            border-color: rgb(255, 255, 255);
-            border-radius: 50px;
-            border-style: solid;
-        }
-
-        p {
-            font-size: 25px;
-            color: black;
-            /* font-family: 'Barlow Condensed', sans-serif; */
-        }
-
-        h5 {
-            font-size: 35px;
-        }
-
-        #ds {
-            color: rgb(104, 16, 116);
-            text-decoration-color: rgb(47, 10, 71);
-            text-decoration-style: wavy;
-            text-decoration-thickness: 2px;
-            text-decoration-line: underline;
-            font-family: 'bangers', cursive;
-            font-size: 40px;
-        }
-
-        .movie_text {
-            text-align: center;
-        }
-
-        .imp {
-            font-weight: bold;
-        }
-
-        /*About Screen*/
-
-        #ab {
-            text-align: left;
-        }
-
-        /*Yoga Screen*/
-        .book {
-            cursor: pointer;
-        }
-
-        .book hr {
-            margin-bottom: 10px;
-        }
-
-        .modal-content {
-            margin-top: 100px;
-        }
-
-        .img_modal {
-            display: inline-block;
-        }
-
-        .p_modal {
-            margin-top: 10px;
-        }
-
-        .modal-body {
-            text-align: center;
-        }
-
-        /* Habits Screen */
-        .hab {
-            height: 200px;
-            width: 300px;
-        }
-
-        /* Exercise Screen */
-        #exer {
-            width: 270px;
-            height: 270px;
-        }
-    </style>
 </head>
 
 <body>
@@ -313,7 +84,8 @@
         <div id="NAME"></div>
         <div></div>
         <div id="name">
-            <button style="float: right; height:40px; width: 100px;" class="glyphicon glyphicon-volume-up" onclick="speak()" ></button>
+            <button style="float: right; height:40px; width: 100px;" class="glyphicon glyphicon-volume-up"
+                onclick="speak()"></button>
             <br>
             <img id="logo" src="Logo.png">
             <h1 id="main">We Care For Your</h1>
@@ -330,24 +102,19 @@
                 <div>
                     <h1 id="mi">“To serve the community by making people cognizant of their physical and mental
                         wellness.”</h1>
-                    <img id="a"
-                        src="https://fmcggurus.com/wp-content/uploads/2019/06/apple-blue-background-close-up-1353366-768x802.jpg">
-                    <img id="b"
-                        src="https://static-news.moneycontrol.com/static-mcnews/2018/10/critical-illness-health-insurance-1280x-720-770x433.jpg">
-                </div>
-                <div><img id="c"
-                        src="https://www.icicilombard.com/docs/default-source/assets/freshlook/images/ui-health-insurance-policy.png">
-                    <img id="d"
-                        src="https://eatforum.org/content/uploads/2019/02/EAT-Lancet_PHD_Plate_RGB-02-940x940.png">
+                    <img id="a" class="img img-responsive"
+                        src="Mission Health Logo.png">
                 </div>
         </div>
+        <br>
+        <br>
 
         <div id="ABOUT"></div>
         <br>
         <div id="about">
             <h1 id="ds">ABOUT</h1>
             <p id="ab">
-            <h3>This is our website named “Able-Bodied”. It is all about healthcare.
+            <h3 id="abo">This is our website named “Able-Bodied”. It is all about healthcare.
                 <br>
                 We made this website to serve the community by making people cognizant of their physical and mental
                 wellness and to encourage people for physical workout to take care of their and their family’s
@@ -389,7 +156,7 @@
                 </div>
 
                 <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 movie-text">
-                    <p class="nut"> • Carbohydrates are the body's source of energy.
+                    <p id="nutri"> • Carbohydrates are the body's source of energy.
                         <br>
                         • They act as fuel for body’s muscles.
                         <br>
@@ -425,7 +192,7 @@
                 </div>
 
                 <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 movie-text">
-                    <p class="nut">
+                    <p id="nutri">
                         • Protein is a part of every cell in the body. It helps the body to build and repair cells
                         and
                         tissues.
@@ -460,7 +227,7 @@
                 </div>
 
                 <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 movie-text">
-                    <p class="nut">
+                    <p id="nutri">
                         • Carbohydrates are the body's source of energy.
                         <br>
                         • Fat is an important part of a healthy diet.
@@ -490,7 +257,7 @@
                 </div>
 
                 <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 movie-text">
-                    <p>• Vitamins are substances that a body needs to grow and develop.
+                    <p id="nutri">• Vitamins are substances that a body needs to grow and develop.
                         <br>
                         • There are 13 vitamins.
                         <br>
@@ -565,7 +332,7 @@
                 </div>
 
                 <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 movie-text">
-                    <p>• Minerals are the nutrients, which are required by our body to develop and function
+                    <p id="nutri">• Minerals are the nutrients, which are required by our body to develop and function
                         normally.
                         <br>
                         • Minerals help in keeping our bones, muscles, heart, and brain healthy.
@@ -594,7 +361,7 @@
                 </div>
 
                 <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 movie-text">
-                    <p>
+                    <p id="nutri">
                         • Water is a tasteless, odorless and transparent fluid.
                         <br>
                         • It helps in removal of waste from our body.
@@ -623,7 +390,7 @@
                 </div>
 
                 <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 movie-text">
-                    <p>
+                    <p id="nutri">
                         • Roughage is the portion of plant foods, such as whole grains, nuts, seeds, legumes,
                         fruits,
                         and vegetables that a body cannot digest.
@@ -664,6 +431,31 @@
             <span>
                 <img id="dietimg" src="Main Pic 3.jpeg">
             </span>
+            <br>
+            <br>
+        </div>
+
+        <div id="RECIPES"></div>
+        <br>
+        <div id="recipes">
+            <h1 id="ds">RECIPES</h1>
+
+            <ul class="list-group">
+                <li class="list-group-item list-group-item-success col-lg-12 col-md-12 col-sm-12 col-xs-12 environment_li">
+                    <h4 class="sen">FOR STRESS RELIEF: Dark Chocolate</h4>
+                    <img class="img-responsive col-lg-5 col-md-5 col-sm-5 col-xs-12" src="e1.jpeg">
+                    <p class="list-group-item-text col-lg-7 col-md-7 col-sm-7 col-xs-12 sen">
+                        You can buy a few dark chocolate to have on a hand or you can make one on you own. Making on own, gives healthful treats. They are very easy to make. Things required are maple syrup, coconut cream, peanut butter, vanilla extract, coconut flakes, dark chocolate, and your choice of toppings.
+                    </p>
+                </li>
+                <li class="list-group-item list-group-item-warning col-lg-12 col-md-12 col-sm-12 col-xs-12 environment_li">
+                    <h4 class="sen">Amazon deforestation and number of fires show summer of 2019 not a normal year</h4>
+                    <img class="img-responsive col-lg-5 col-md-5 col-sm-5 col-xs-12" src="e3.jpeg">
+                    <p class="list-group-item-text col-lg-7 col-md-7 col-sm-7 col-xs-12 sen">The perceived scale of the Amazon blazes received global attention this summer. However, international concerns raised at the time were countered by the Brazilian Government, which claimed the fire situation in August was 'normal' and 'below the historical average'.An international team of scientists writing in the journal Global Change Biology say the number of active fires in August was actually three times higher than in 2018 and the highest number since 2010.
+                    </p>
+                </li>
+            </ul>
+
         </div>
 
 
@@ -671,11 +463,35 @@
         <br>
         <div id="fitness">
             <h1 id="ds">PHYSICAL FITNESS</h1>
-                <h3>EXERCISES</h3>
-                <span>
-                    <img id="exer" src="Cycling.jpeg">
-                    <h4></h4>
-                </span>
+            <span>
+                <img id="exer" src="Cycling.jpeg">
+                <h4 class="sen">1. Exercise keeps our body fit, strong and healthy.</h4>
+            </span>
+
+            <span>
+                <img id="exer" src="">
+                <h4 class="sen">2. We can do exercise in the form of yoga, walk, jogging, swimming, cycling etc.</h4>
+            </span>
+
+            <span>
+                <img id="exer" src="">
+                <h4 class="sen">3. Exercise improves blood circulation and strengthen up our muscels.</h4>
+            </span>
+
+            <span>
+                <img id="exer" src="Sleeping.jpeg">
+                <h4 class="sen">1. Our body needs eight hours of night sleep to be healthy.</h4>
+            </span>
+
+            <span>
+                <img id="exer" src="">
+                <h4 class="sen">2.	We should also take out our time in the afternoon to relax ourselves by listening to music, taking a nap or reading books as Our body gets time to repair wear and tear when we sleep.</h4>
+            </span>
+
+            <span>
+                <img id="exer" src="">
+                <h4 class="sen">3.	One should always have fixed bed time.</h4>
+            </span>
             <br>
             <br>
         </div>
@@ -690,7 +506,7 @@
                 <div class="col-lg-4 col-md-7 col-sm-10 col-xs-12 book" data-toggle="modal" data-target="#1st">
                     <img class="hab" src="Salad.jpeg" class="img-responsive img_modal">
                     <hr>
-                    <p class="text-primary">
+                    <p class="text-primary sen">
                         Salad
                     </p>
                 </div>
@@ -705,7 +521,7 @@
                             </div>
                             <div class="modal-body">
                                 <img src="Salad.jpeg" class="img-responsive img_modal">
-                                <p class="p_modal">Fresh Fruits and certain vegetables should not be cooked instead,
+                                <p class="p_modal sen">Fresh Fruits and certain vegetables should not be cooked instead,
                                     they
                                     should be eaten raw in the form of salad because, cooking destroys various nutrients
                                     of
@@ -725,7 +541,7 @@
                         src="https://images.unsplash.com/photo-1530878955558-a6c31b9c97db?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MXx8bmljZXxlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&w=1000&q=80"
                         class="img-responsive img_modal">
                     <hr>
-                    <p class="text-primary">
+                    <p class="text-primary sen">
                         Cooking
                     </p>
                 </div>
@@ -741,7 +557,7 @@
                             <div class="modal-body">
                                 <img src="https://images.unsplash.com/photo-1530878955558-a6c31b9c97db?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MXx8bmljZXxlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&w=1000&q=80"
                                     class="img-responsive img_modal">
-                                <p class="p_modal">2. The food items which are hard to digest should be cooked well
+                                <p class="p_modal sen">The food items which are hard to digest should be cooked well
                                     because
                                     it makes the food easy to digest. Cooking makes the food softer and tastier. It also
                                     improves the fragrance of the food, as well as it kills the germs present in the
@@ -760,7 +576,7 @@
                 <div class="col-lg-4 col-md-7 col-sm-10 col-xs-12 book" data-toggle="modal" data-target="#3rd">
                     <img class="hab" src="Water.jpeg" class="img-responsive img_modal">
                     <hr>
-                    <p class="text-primary">
+                    <p class="text-primary sen">
                         Drinking Plenty Water
                     </p>
                 </div>
@@ -775,9 +591,7 @@
                             </div>
                             <div class="modal-body">
                                 <img src="Water.jpeg" class="img-responsive img_modal">
-                                <p class="p_modal">We should drink plenty of water to increase the amount of hydration
-                                    in
-                                    our body.<br>
+                                <p class="p_modal sen">We should drink plenty of water to keep our body hydrated. Water helps in flushing out harmful microorganisms from our system and aids in digestion.<br>
                                 </p>
 
                             </div>
@@ -792,7 +606,7 @@
                 <div class="col-lg-4 col-md-7 col-sm-10 col-xs-12 book" data-toggle="modal" data-target="#4th">
                     <img class="hab" src="Washing Hands.jpeg" class="img-responsive img_modal">
                     <hr>
-                    <p class="text-primary">
+                    <p class="text-primary sen">
                         Washing Hands
                     </p>
                 </div>
@@ -807,7 +621,7 @@
                             </div>
                             <div class="modal-body">
                                 <img src="Washing Hands.jpeg" class="img-responsive img_modal">
-                                <p class="p_modal">Our hands consist of many germs, so we should always wash our hands
+                                <p class="p_modal sen">Our hands consist of many germs, so we should always wash our hands
                                     before and after the meals.<br>
                                 </p>
 
@@ -822,7 +636,7 @@
                 <div class="col-lg-4 col-md-7 col-sm-10 col-xs-12 book" data-toggle="modal" data-target="#5th">
                     <img class="hab" src="Fruit Basket.jpeg" class="img-responsive img_modal">
                     <hr>
-                    <p class="text-primary">
+                    <p class="text-primary sen">
                         Keeping Food Items Covered
                     </p>
                 </div>
@@ -837,9 +651,9 @@
                             </div>
                             <div class="modal-body">
                                 <img src="Fruit Basket.jpeg" class="img-responsive img_modal">
-                                <p class="p_modal">5. We should not eat uncovered food items because it may get exposed
+                                <p class="p_modal sen">We should not eat uncovered food items because it may get exposed
                                     with
-                                    flies and germs. It is because that it may cause diseases like diarrhoea, food
+                                    flies and germs and that may cause diseases like diarrhoea, food
                                     poisoning, stomach ache etc.<br>
                                 </p>
 
@@ -855,7 +669,7 @@
                 <div class="col-lg-4 col-md-7 col-sm-10 col-xs-12 book" data-toggle="modal" data-target="#6th">
                     <img class="hab" src="Washing fruits.jpeg" class="img-responsive img_modal">
                     <hr>
-                    <p class="text-primary">
+                    <p class="text-primary sen">
                         Washing Food Items
                     </p>
                 </div>
@@ -870,7 +684,7 @@
                             </div>
                             <div class="modal-body">
                                 <img src="Washing fruits.jpeg" class="img-responsive img_modal">
-                                <p class="p_modal">6. Always wash fruits and vegetables before peeling and cutting.<br>
+                                <p class="p_modal sen">Always wash fruits and vegetables before peeling and cutting. This circumvents the percentage of germs and health-related problems<br>
                                 </p>
 
                             </div>

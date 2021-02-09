@@ -1,7 +1,11 @@
-#name
-{
+body {
+    font-family: 'Oswald', sans-serif !important;
+}
+
+#name {
     background-image: "Background.JPG";
 }
+
 .my_nav_bar {
     position: sticky;
     top: 0;
@@ -21,18 +25,9 @@ html {
 /*Main Page*/
 
 #main {
-    font-size: 100px;
+    font-size: 95px;
     color: black;
     text-align: center;
-    /*font-family:"Brush Script MT", cursive;*/
-    /*font-family: "Brush Script MT";*/
-    /* text-decoration-style: wavy;
-text-decoration-line: underline;
-text-decoration-thickness: 5px; */
-    /*font-family: 'Bangers', cursive;*/
-    /*font-family: 'Parisienne', cursive;*/
-    /*font-family: 'Great Vibes', cursive;*/
-    /*font-family: 'Tangerine', cursive;*/
     font-family: 'Fredericka the Great', cursive;
     font-weight: 500;
 }
@@ -48,23 +43,17 @@ text-decoration-thickness: 5px; */
 }
 
 #logo {
-    border-radius: 150px;
-    /* height: 300px;
-    width: 450px; */
+    border-radius: 50px;
     height: 300px;
     width: 300px;
-    /* border-width: 2px;
-    border-color: cornflowerblue;
-    border-style: solid; */
 }
-#MISSION,
-#DIET, 
-#DISEASES,
+
 #MISSION,
 #ABOUT,
-#EXERCISES,
-#HABITS
- {
+#DIET,
+#RECIPES,
+#FITNESS,
+#HABITS {
     background-image: linear-gradient(to right, rgba(38, 0, 255, 0), rgb(0, 81, 255));
     height: 5px;
     margin: 0 !important;
@@ -77,12 +66,9 @@ text-decoration-thickness: 5px; */
     height: 150px;
 }
 
-#a,
-#b,
-#c,
-#d {
+#a {
     height: 250px;
-    width: 300px;
+    width: 600px;
     background-color: white;
     border-width: 5px;
     border-style: double;
@@ -98,20 +84,10 @@ text-decoration-thickness: 5px; */
 }
 
 /*Balnced Diet Page*/
-#bl {
-    color: rgb(151, 24, 24);
-    text-decoration-color: rgb(93, 9, 9);
-    text-decoration-style: wavy;
-    text-decoration-thickness: 2px;
-    text-decoration-line: underline;
-    font-family: 'Potta One', cursive;
-    font-size: 40px;
-
-}
 
 #dietimg {
-    width:300px;
-    height:250px;
+    width: 350px;
+    height: 250px;
     border-radius: 20px;
     border-style: double;
     border-color: brown;
@@ -119,22 +95,29 @@ text-decoration-thickness: 5px; */
     margin: 2px;
 }
 
+#dietimg:hover {
+    width: 400px;
+    height: 300px;
+    border-color: black;
+}
+
 #ans {
     text-align: center;
-    font-size: 25px;
+    font-weight: 500;
 }
 
 #ques {
     text-align: center;
-    font-size: 30px;
     color: rgb(46, 108, 209);
     text-transform: uppercase;
     font-weight: bold;
+    text-decoration: underline;
+    text-decoration-color: rgb(16, 16, 110);
 }
 
 /*Medicines & Diseases*/
 .movie_head {
-    font-size: 20px;
+    /*font-size: 20px;*/
     padding: 6px 22px;
     border-radius: 10px;
     /*margin-bottom: 15px;*/
@@ -149,30 +132,27 @@ text-decoration-thickness: 5px; */
 .movie_text span {
     color: dimgrey;
 }
-#diseases
-{
+
+#diseases {
     margin-top: 0px !important;
 }
-.bar
-{
-    background-color:transparent;
-    color:black;
-    font-size: 30px;
+
+.bar {
+    background-color: transparent;
+    color: black;
+    font-weight: bold;
     border-width: 2px;
     border-color: rgb(255, 255, 255);
     border-radius: 50px;
     border-style: solid;
 }
-p{
-    font-size: 20px;
+
+p {
     color: black;
+    /* font-family: 'Barlow Condensed', sans-serif; */
 }
-h5
-{
-    font-size: 35px;
-} 
-#ds
-{
+
+#ds {
     color: rgb(104, 16, 116);
     text-decoration-color: rgb(47, 10, 71);
     text-decoration-style: wavy;
@@ -182,15 +162,17 @@ h5
     font-size: 40px;
 }
 
-.movie_text
-{
+.movie_text {
     text-align: center;
+}
+
+.imp {
+    font-weight: bold;
 }
 
 /*About Screen*/
 
-#ab
-{
+#ab {
     text-align: left;
 }
 
@@ -220,8 +202,26 @@ h5
 }
 
 /* Habits Screen */
-.hab
-{
+.hab {
     height: 200px;
     width: 300px;
+}
+
+/* Exercise Screen */
+#exer {
+    width: 270px;
+    height: 270px;
+}
+
+#abo,
+#ques,
+#ans,
+.sen {
+    font-size: 25px !important;
+}
+
+#nutri
+{
+    font-size: 22px;
+    text-align: left;
 }
