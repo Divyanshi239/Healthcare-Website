@@ -1,5 +1,5 @@
 body {
-    font-family: 'Oswald', sans-serif !important;
+    font-family: 'PT Sans Narrow', sans-serif;
 }
 
 #name {
@@ -82,7 +82,7 @@ html {
 
 }
 
-/*Balnced Diet Page*/
+/*Balanced Diet Page*/
 
 #dietimg {
     width: 350px;
@@ -102,7 +102,6 @@ html {
 
 #ans {
     text-align: center;
-    font-weight: 500;
 }
 
 #ques {
@@ -167,6 +166,7 @@ p {
 
 .imp {
     font-weight: bold;
+    text-align: left;
 }
 
 /*About Screen*/
@@ -212,28 +212,64 @@ p {
     height: 270px;
 }
 
-#abo,
-.sen {
-    font-size: 25px !important;
-    color: black;
-}
 
-#ques,
-#ans
+/*Font-Size*/
+
+#abo
 {
-    font-size: 25px;
+    font-family: 'PT Sans Narrow', sans-serif;
 }
 
+#abo,
+.ans,
+.bar,
+.sen,
 .top
 {
-    font-size: 25px;
+    font-size: 27px;
 }
+
+.sm,
+#nutri
+{
+    font-size: 24px;
+}
+
+#vit
+{
+    font-size: 30px;
+    text-align: center;
+    color: blue;
+}
+#tbl
+{
+    color: rgb(90, 9, 167);
+}
+
 
 #nutri
 {
-    font-size: 22px;
     text-align: left;
 }
+
+tr
+{
+    padding: 5px;
+}
+
+.fit
+{
+    height: 500px;
+    width: 370px;
+}
+
+.fit2
+{
+    height: 450px;
+    width: 700px;
+}
+
+
 /**/
 .travel_mainDiv {
     border: 1px solid #c7c7c7;
