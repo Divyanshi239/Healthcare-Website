@@ -213,11 +213,15 @@ p {
 }
 
 #abo,
-#ques,
-#ans,
 .sen {
     font-size: 25px !important;
     color: black;
+}
+
+#ques,
+#ans
+{
+    font-size: 25px;
 }
 
 .top
