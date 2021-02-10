@@ -3,7 +3,10 @@ body {
 }
 
 #name {
-    background-image: "Background.JPG";
+    background-image:url("Background.JPG");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 .my_nav_bar {
