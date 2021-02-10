@@ -53,7 +53,8 @@ html {
 #DIET,
 #RECIPES,
 #FITNESS,
-#HABITS{
+#HABITS
+{
     background-image: linear-gradient(to right, rgba(38, 0, 255, 0), rgb(0, 81, 255));
     height: 5px;
 }
