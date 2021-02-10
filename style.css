@@ -240,9 +240,13 @@ p {
 
 #vit
 {
-    font-size: 30px;
+    font-size: 31px;
     text-align: center;
     color: blue;
+    text-decoration: underline;
+    text-decoration-color: rgb(6, 6, 170);
+    text-decoration-style: solid;
+    text-decoration-thickness: 2px;
 }
 #tbl
 {
