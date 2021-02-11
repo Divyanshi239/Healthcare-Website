@@ -13,7 +13,7 @@ body {
 }
 
 #name {
-    background-image:url("Background.JPG");
+    background-image:url("Background.jpeg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -92,8 +92,7 @@ html {
 
 #mi {
     color: blueviolet;
-    font-family: "Sofia", cursive;
-
+    font-family: 'Norican', cursive;
 }
 
 /*Balanced Diet Page*/
@@ -304,10 +303,6 @@ tr
     float: none
 }
 
-.travel_mainDiv img {
-    width: 100%;
-}
-
 .travel_mainDiv hr {
     width: 230px;
 }
@@ -315,4 +310,11 @@ tr
 .travel_mainDiv h5,
 .travel_mainDiv p {
     margin-left: 20px;
+}
+
+.rec
+{
+    width: 300px;
+    height: 250px;
+    text-align: left;
 }
