@@ -5,10 +5,3 @@ function speak()
     var utterThis = new SpeechSynthesisUtterance(speak_data);
     synth.speak(utterThis);
 }
-
-width = screen.width;
-
-if(width <= "960")
-{
-    document.getElementById("about").style.margin = "0px 100px 0px 100px";
-}
