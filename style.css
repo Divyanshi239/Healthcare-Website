@@ -258,7 +258,7 @@ p {
 
 #vit
 {
-    font-size: 31px;
+    font-size: 30px;
     text-align: center;
     color: blue;
     text-decoration: underline;
@@ -317,4 +317,10 @@ tr
     width: 300px;
     height: 250px;
     text-align: left;
+}
+
+td
+{
+    color: rgb(255, 123, 0);
+    font-size: 24px;
 }
