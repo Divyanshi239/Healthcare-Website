@@ -25,10 +25,12 @@ body {
     z-index: 9999;
     font-family: 'Lobster', cursive;
     font-size: 20px;
+    color: white;
 }
 
 .qwerty {
     font-size: 30px;
+    color: white;
 }
 
 html {
@@ -320,7 +322,7 @@ tr
 .rec
 {
     width: 300px;
-    height: 250px;
+    height: 270px;
     text-align: left;
 }
 
