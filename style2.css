@@ -1,0 +1,20 @@
+h1
+{
+    font-size: 30px;
+    color: red;
+}
+body
+{
+    color: black;
+    font-size: 25px;
+}
+
+#strt
+{
+    color: blue;
+    font-size: 35px;
+    text-transform:uppercase;
+    text-decoration-color: rgb(4, 4, 49);
+    text-decoration: underline;
+    text-decoration-style:underline;
+}
