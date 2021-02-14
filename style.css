@@ -181,6 +181,7 @@ p {
 .imp {
     font-weight: bold;
     text-align: left;
+    color: rgb(218, 204, 18);
 }
 
 /*About Screen*/
@@ -348,8 +349,9 @@ td
 #if
 {
     text-align: center;
-    width: 450px;
-    height: 250px;
+    width: 300px;
+    height: 230px;
+    border-style: solid;
 }
 
 #tagline
