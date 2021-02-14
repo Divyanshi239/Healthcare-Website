@@ -261,9 +261,9 @@ p {
 {
     font-size: 30px;
     text-align: center;
-    color: blue;
+    color: rgb(255, 0, 0);
     text-decoration: underline;
-    text-decoration-color: rgb(6, 6, 170);
+    text-decoration-color: rgb(185, 0, 0);
     text-decoration-style: solid;
     text-decoration-thickness: 2px;
 }
@@ -326,6 +326,12 @@ tr
     text-align: left;
 }
 
+.rec2
+{
+    width: 300px;
+    height: 250;
+}
+
 td
 {
     color: rgb(255, 123, 0);
@@ -344,4 +350,10 @@ td
     text-align: center;
     width: 450px;
     height: 250px;
+}
+
+#tagline
+{
+    font-size: 22px;
+    font-style: italic;
 }
