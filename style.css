@@ -338,3 +338,10 @@ td
     text-decoration: underline;
     text-decoration-style: solid;
 }
+
+#if
+{
+    text-align: center;
+    width: max-content;
+    height: max-content;
+}
