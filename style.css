@@ -342,6 +342,6 @@ td
 #if
 {
     text-align: center;
-    width: max-content;
-    height: max-content;
+    width: 450px;
+    height: 250px;
 }
