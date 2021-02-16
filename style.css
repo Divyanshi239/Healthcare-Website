@@ -362,3 +362,21 @@ td
     font-size: 22px;
     font-style: italic;
 }
+
+/* Contract Screen */
+#contact iframe {
+    width: 100%;
+}
+
+.contact_1 h3 {
+    display: inline;
+}
+
+.contact_1 a {
+    text-shadow: none;
+}
+
+#contact
+{
+    background-color: grey;
+}
