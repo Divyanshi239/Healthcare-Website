@@ -100,8 +100,8 @@ html {
 
 #dietimg,
 #dietimg2 {
-    width: 300px !important;
-    height: 220px !important;
+    width: 300px;
+    height: 220px;
     border-radius: 20px;
     border-style: double;
     border-color: brown;
@@ -111,8 +111,8 @@ html {
 
 #dietimg:hover,
 #dietimg2:hover {
-    width: 400px;
-    height: 300px;
+    width: 350px;
+    height: 270px;
     border-color: black;
 }
 
@@ -259,6 +259,12 @@ p {
 #nutri
 {
     font-size: 24px;
+}
+
+#link
+{
+    color: blue;
+    font-size: 27px;
 }
 
 #vit
